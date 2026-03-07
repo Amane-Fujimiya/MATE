@@ -4,7 +4,9 @@ format:
     grid:
       body-width: 1200px
 ---
-# Material Science and Computational Modelling (AI & Modelling)
+# Introduction
+
+(To the Material Science and Computational Modelling (AI & Modelling))
 
 Welcome, to the research documentation page on **material science** and such applications or investigations using *artificial intelligence*, for the lack of better work downgrading current infrastructures to, and *computational simulation*, without restriction to simple binary simulation itself. Our purpose in such research is then fairly simple to state. More specifically, what we want includes:
 
