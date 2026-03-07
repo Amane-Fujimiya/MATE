@@ -1,0 +1,20 @@
+---
+format:
+  html:
+    grid:
+      body-width: 1200px
+---
+# Material Science and Computational Modelling (AI & Modelling)
+
+Welcome, to the research documentation page on **material science** and such applications or investigations using *artificial intelligence*, for the lack of better work downgrading current infrastructures to, and *computational simulation*, without restriction to simple binary simulation itself. Our purpose in such research is then fairly simple to state. More specifically, what we want includes:
+
+1. Investigation of the foundational concepts, constructs, models, realization, *assumption*, oracle specification, truncated regions, meaning, and so on when in consideration of physics, to subject as specific of materials and their structural consequences. 
+2. We study the intrinsic image and realization of different models as such in material science, from which we identify of the structural error, region of fallacy, failure modes and so on that instead of entangle the system in a network of patchwork, we diagnose specific pattern and junctions where analysis on multi-angle model cohesion can be achieved. Within such, perhaps proposal for new models or a unified one can be attained. 
+3. We study the close problem between **theoretical-practical gap** of material science on paper and of its instantiation, for also *computer simulation* models. 
+4. Within it, we study **simulation theory** in close quarter to material science, the *simulated problem* on the inability to capture many-body physics without using upper-layer zoom-out measure (statistics and quantum mechanics are admission of such that the details are either too complex, or too unknown to be grounded specifically). The gap is then also between *described construction* and *admitted structures*, in which we are to realize on the method to simulate a structure more than just numerical computation, and furthermore on the disadvantage, compartment removal in such method of simulating under constraints. 
+5. Using AI, or rather, applying AI toward specific structural purposes, we probe the usage of AI-like system for the lack of analysis thereof, to see their applications, inherited or extracted features, the fitting patterns that they design or extrapolated, and furthermore the inherent limitation they carry. Ever more specifically, if we are to treat AI system as tangible for realization of material science structure, we ought to also realize *what they capture* and how the semantic dynamic structure is moved in-between of the AI substrates. 
+
+With such, our goal is rather large. The first section perhaps would cover the more basic of material science, as a survey into within itself of the field, and further more if time and resource is allowed. Nevertheless, within such a long plan, we are to fill it with not buzzword but actual concepts. For the lack of word and the abundance thereof being superficial teleology, we are to say the words toward what they are worth.
+
+This is inherited, or born out of participation of the Computational Material Science Laboratory. Following up of such, I thank for their guidances thereof. 
+
