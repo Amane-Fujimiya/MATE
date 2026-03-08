@@ -57,6 +57,7 @@ format:
     grid: 
       body-width: 900px
 
+bibliography: references.bib
 
 latex-auto-install: true
 
