@@ -29,6 +29,7 @@ book:
     - part: "Materials"
       chapters: 
         - main/c1/c1.1.qmd
+    - bibliography.qmd
 
 
 #bibliography: references.bib
