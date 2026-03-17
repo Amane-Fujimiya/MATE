@@ -29,6 +29,9 @@ book:
     - part: "Materials"
       chapters: 
         - main/c1/c1.1.qmd
+    - part: "Artificial Intelligence (?)"
+      chapters: 
+        - main/c2/c2.1.qmd
     - bibliography.qmd
 
 
