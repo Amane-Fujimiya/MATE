@@ -29,6 +29,7 @@ book:
     - part: "Materials"
       chapters: 
         - main/c1/c1.1.qmd
+        - main/c1/c1.2.qmd
     - part: "Artificial Intelligence (?)"
       chapters: 
         - main/c2/c2.1.qmd
@@ -59,7 +60,7 @@ format:
     mermaid:
       theme: neutral
     grid: 
-      body-width: 900px
+      body-width: 1000px
 
 bibliography: references.bib
 
