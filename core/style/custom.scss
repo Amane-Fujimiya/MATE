@@ -78,6 +78,9 @@ p strong, li strong {
   --teal-italic: #2392a8;
 }
 
+p em, li em {
+  color: var(--teal-italic);
+}
 
 :root {
   --dr-hue: 180deg;
