@@ -36,7 +36,7 @@ This is presupposing the atomic theory, in which we know that atoms, and many sm
 
 ### In-detail - the Aristotle's Hylomorphism
 
-Per the subject topic, of which more philosophical than not, in @Ainsworth2016FormMatter it was to be said that Aristotle's hylomorphism is rather advanced for its time. THe philosophical doctrine of such posits that all physical entities are compounds of **matter** (*hyle* - the material constituent or potentiality) and **form** (*morphe or eidos - the structure essence or actuality*), to explain of the material and the world. 
+Per the subject topic, of which more philosophical than not, in @Ainsworth2016FormMatter it was to be said that Aristotle's hylomorphism is rather advanced for its time. The philosophical doctrine of such posits that all physical entities are compounds of **matter** (*hyle* - the material constituent or potentiality) and **form** (*morphe or eidos - the structure essence or actuality*), to explain of the material and the world. 
 
 ![The Hylomorphism in Aristotle's Theory](img/hylomorphism.png){fig-align="center" width="80%"}
 
