@@ -10,7 +10,7 @@ book:
   repo-actions: [edit, issue, source]
   repo-subdir: book
   favicon: Figures/favicon.ico
-  cover-image: Figures/logos.png
+  cover-image: img_core/logos.png
   #downloads: [pdf]
   sidebar:
     style: "docked"
