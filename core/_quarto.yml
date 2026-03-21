@@ -43,6 +43,7 @@ format:
     lightbox: true
     theme:
       light: [default, style/custom.scss]
+      dark: [default, style/custom_dark.scss]
     fontsize: "14px"
     linestretch: 1.6
     mainfont: "Roboto"
