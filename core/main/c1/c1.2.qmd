@@ -16,6 +16,8 @@ History of pre-material science can be separated into the concept word of **matt
 
 Up to another region of time, or so we speak of, Thales of Miletus regarded water as sole fundamental building block of matter, and thus henceforth also material itself.  He held that water, in taking different forms, constitutes the earth, atmosphere, sky, mountains, gods and men, beasts and birds, grass and trees, and animals down to worms, flies and ants. All these are different forms of water, and for certainty many of such different qualities inside many matter or materials, would be derivation simply by manipulating water, of which is the ability we do not possess of the time (yet). 
 
+![I cannot find a picture about the **water theory** in historical records of illustration, so make due with sewerage and drainage systems: (a) Minoan (photo: A.N. Angelakis) and (b) Indus Valley figure, then. Taken from [@w14193149].](img/plumbing_thales.png)
+
 This constitutes the second action, the **action of fumdamentalizing derivation**. Basically speaking, this requires the think that there exists, out of all set $\{\mathrm{Ma},\mathrm{Me}\}$ for material and matter of arbitrary choice on classification notion (where we can still take the anthropological definition for material), to have certain *initial form* that would make up literally everything else in existence, just with more details or more complex types. That is, the *minimal framework* itself. It is understandable how Thales would have thought of such - consider water, a *fluid* as we know of now, where shape can be transformed, the basis of life and what human (anthropological basis, mind you) cannot live without, the solvent of many processes, medium for many mechanical or proto-chemical purposes. All of such constitutes to the big picture of that water is fundamental, and we cannot really fail that to a given degree of sort. 
 
 > **Act II.** (Fundamentalization of derivatives on initials)
@@ -129,8 +131,8 @@ Supported by again, Lavoisier, alongside the set of *empirical law* on **conserv
 
 For industrial chemistry itself, the new chemistry indeed gained operational success, especially of large-scale chemical manufacturing process. The two often cited prospect arose to be as followed, 
 
-- Sulphuric acid: John Roebuck’s lead-chamber process (1746) allowed bulk acid production. By lining wooden reaction chambers with lead, Roebuck’s method produced concentrated sulphuric acid at far lower cost. This massive supply of acid fuelled textiles, metallurgy and later fertilizers.
-- Soda ash: Nicolas Leblanc devised a process (patented 1791) to make soda from common salt and sulphuric acid. Leblanc’s method “turned soda production from nothingness to a major industry”. His 1791 patent was lauded as "very superior" in economy and purity. Mid-19th century production reached ~400,000 tons/year. These early chemical plants (sulphuric acid, soda) were among the first examples of the modern chemical industry.
+- **Sulphuric acid**: John Roebuck’s *lead-chamber process* (1746) allowed bulk acid production. By lining wooden reaction chambers with lead, Roebuck’s method produced concentrated sulphuric acid at far lower cost. This massive supply of acid fuelled textiles, metallurgy and later fertilizers.
+- **Soda ash**: Nicolas Leblanc devised a process (patented 1791) to make soda from common salt and sulphuric acid. Leblanc’s method "turned soda production from *nothingness* to a major industry". His 1791 patent was lauded as "very superior" in economy and purity. Mid-19th century production reached ~400,000 tons/year. These early chemical plants (sulphuric acid, soda) were among the first examples of the modern chemical industry.
 
 At last, from 1780s, the shift has been to be foundational - where substances were identified, individuated, ordered per specification of certain dialect, and classed on the basis of their composition. What seemed to be mundane and non-trivial, by such effect, are now the central of studies in the search for the elemental substrates underlying typically can be said of almost everything that can be made of in nature. The ontological shift is now fair bit better - while the lower-level still retains the *inherent grounding question*, such is to say the layer worked far better than anticipated, one part no small of its simplification and enunciation for which materials are identified under empirical analysis isolated enough to trivialize complexity, as it is certainly one would not want his chainsaw to be reek of rust when he first began the journey into lumbering. In a sense, chemists started regarding matter, and materials thereof, as a set of chemically defined substances. The shift *occurred* in matter. The material **does not**. 
 
@@ -140,7 +142,7 @@ It is rather undermining to start the section about what to be said of *material
 
 About at the end of the Lavoisier-Dalton revolution onward, the artefact remains the two criteria of material sciences. What to be said to be incompatible, and of which to be said of not the same. 
 
-::: {.callout-note callout-appearance: simple}
+::: {.callout-note appearance="simple"}
 
 ### Criterion CR.1. 
 
@@ -148,7 +150,7 @@ A material/matter is identified by its composition - its elemental makeup and mo
 
 :::
 
-::: {.callout-note callout-appearance: simple}
+::: {.callout-note appearance="simple"}
 
 ### Criterion CR.2. 
 
@@ -160,4 +162,15 @@ This inherent contradiction lives within the mechanical revolution and chemical 
 
 [^6]: And in a sense, becoming *material*, though that is another target to be distinguished, as always. 
 
+### The failure of Dalton's
+
+What to be said as the failure of Dalton's atomic theory (1808), is rather easy to unpack where it went wrong and what to be said of itself. Garnett (1996) and Bucat (1984) specified in a rather different details of the following information that we would be able to take apart from, which will be of relevant in later sections still. 
+
+7. Gas particles are evenly scattered in an enclosed space and there are empty space between particles.
+8. Particles move slower in liquids and vibrate about fixed positions in solids.
+9. Particles join together in simple consistent ratios when two different substances react to form a third substance.
+10. Mass is conserved in these reactions.
+11. The spacing between solid-solid, liquid-liquid and gas-gas particles is close to 1:1:10 (Andersson, 1990; de Vos and Verdonk, 1996).
+
+Many years apart, the story often presented in the corpus of chemical science would be of the atomic theory since Dalton, and the current **molecular kinetic theory**, though much more antique in consideration against quantum chemistry, are actually closer than what we thought. The current molecular story only imported the higher resolution of the consequence of Dalton's - such is where atoms would be still, the driving force, and their behaviours are explainable in the sense of which their connections, topology, reactions are derivable with precision of the rulesets to follow along, and it should always be that way. Or not, as we would find out. But for now, let us take apart each of them, one by one. 
 
