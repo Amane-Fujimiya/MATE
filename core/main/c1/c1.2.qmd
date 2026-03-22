@@ -174,3 +174,78 @@ What to be said as the failure of Dalton's atomic theory (1808), is rather easy 
 
 Many years apart, the story often presented in the corpus of chemical science would be of the atomic theory since Dalton, and the current **molecular kinetic theory**, though much more antique in consideration against quantum chemistry, are actually closer than what we thought. The current molecular story only imported the higher resolution of the consequence of Dalton's - such is where atoms would be still, the driving force, and their behaviours are explainable in the sense of which their connections, topology, reactions are derivable with precision of the rulesets to follow along, and it should always be that way. Or not, as we would find out. But for now, let us take apart each of them, one by one. 
 
+#### The form of Dalton's
+
+Suppose matter/material collapse into a singular topic of discussion about its origin. Then, The atomic model indicts that matter $M$ has the composition from $N(k)$, for $N\in\mathcal{N}$ of the atomic species, i.e. the distinct set of *elements* altogether, $k$ denoting the simple cardinality as a whole. Then, we posit that certain element of $N_{1}$ and $N_{2}$ are equal only if the **properties** attached to them are of the same quantitative evaluation, we call  this $\{p\}$. The first advantage of Dalton's theory is that we can settle on the similarity up to a certain point, based on *empirical observation* of standardized quantity. The size, up to certain fixture of propositional evaluation, also is rather easier of the intuition. We can say that iron are much bigger/smaller than oxygen atom, to a given sense, and such would be verified by local experience alone, and would not need much explanation thereof - you can feel the bulk of iron, but not so much of oxygen, that is. Chemical reaction happens when sufficient condition are there to mix between $N_{1}+N_{2}$. Now, the key point of Dalton is that
+$$
+\frac{k_{1}}{k_{2}} = c\in \mathbb{Q}
+$$
+of all whole number, for $k_{1}$ the units of element of $N_{1}$, and so on for $k_{2}$. Discrete combinatorial units of each element in a stable structure, is the kinematic of interaction that they would be able to occur of. Thence, for a set of $m$ chemical compounds, the following applies for all chemical reaction,
+$$
+N_{1} + N_{2} + N_{3} + \dots + N_{m} = (\dots((N_{1} + N_{2}) + N_{3}) + \dots + N_{m} )
+$$
+subjected to
+$$
+\frac{k_{1}}{k_{2}} , \frac{k_{12}}{k_{3}}, \frac{k_{123}}{k_{4}}, \dots , \frac{k_{1\dots m-1}}{k_{m}} \in \mathbb{Q},
+$$
+For $m$ reactants, you don't get $m$-body interaction, but instead $m-1$ pairwise interaction in sequence, each consuming the product of the previous step as one of its input. The full reaction is therefor much akin to a left-associative fold over the set of reactants if we are to speak in functional programming style (arguably much better computationally). 
+
+The constraint is similar to how *Boolean binary algebra* works, of the nested constraint in between the chemical components. This means of the implication that the *order of interaction* matters, for which pair to be consumed in such as the first implication. Second, it also means that for interaction specificity, we can also switch the order of which if I bracket $N_{34},N_{35}$ first, thereby the chain of order would spread out in between itself. Implicitly, we can quite also see what is happening with this composition. Under reaction in which $N_{j}$ is the reactant to both $N_{n}$ and $N_{q}$, then there must be 2 separated chains, one concerns with $N_{j}+N_{n}$ and the other with $N_{j}+ N_{q}$, respectively. This incurs a rather costly debt of interpretation and chemical computation, as for them to be separated meaning now you will have to gauge and control the whole number separation between them. Under some circumstances (or rather most), such often cannot be obtained itself, or at least if you gauge them, you are also doing local radii reaction computation, which in turns will force the chemical formulation to be consistent as to have *independent reactive elements*, which the framework does not provide explanation to. The last mundane observation from such point, before we move on to the other postulates, would be that in local bracket, order of reaction in formulation does not matter. Which is partly true in practical chemistry, but with nuance we are not to explain here but refer to authoritative texts. In modern science, [@voelkel2017designorderofadditionexperiments] provided such view into the order of addition for chemical reaction itself, and [@Bourne2003Mixing] on mixing in chemical processes. 
+
+Moving on, atoms cannot be subdivided into smaller units, such is to say that they are unchanged and of a particular optimal baseline that cannot be crossed of the higher precision pointer. The implication is rather immediate if not. The atom by then, would be the main actor of every single chemical process itself, and would be favourable to capture their intrinsic properties and behaviours underlying the atomic reaction themselves. Because atoms are the same by postulate 2 of same size, mass and other properties, this creates a form of *independent correlation* or *uniformity invariance* between the two atoms together of the same element - they will act the same and be the same of properties, thus the chemical reaction at a certain fixture would be scalable by only analyzing the small set of chemical elements itself, and can be applied within homogeneous assumption of such in large set of masses and order of process. It also implicitly foregrounded the *conservation of matter and energy*, such is to say if under classical notion, $(m,E)$-configuration as a pair of 'mass' that an atom has, then they would only be taken away from the prior to the latter post-process form, and thus both would be conserved - the energy would be of specific quantity and be unchanged, so for mass. 
+
+Postulate 5 is rather contradicting postulate 4, in a sense. During which a process of chemical reactions, atom to be combined, separated and rearrange, there exists the condition in which take a 3-set of elements, $N_{1},N_{2},N_{3}$, we have as following,
+$$
+\begin{matrix}
+N_{1} + N_{2} + N_{3} \to N_{r1} + N_{r2} \\
+(N_{1}+ N_{2}) \to N_{r12,1} + N_{r12,2} + N_{r12,3} \\
+ N_{1} + N_{2} + N_{3} \equiv N_{r12,1} + N_{r12,2} + N_{r12,3} + N_{3} 
+\end{matrix}
+$$
+However, the collapse if there is, of the left-hand-side, cannot be considered carefully and quantitatively. Specifically speaking, it relies on how well we detect the residue of the chemical experimental results, for $N_{r1} + N_{r2}$. Now, another possibility that will complicate this is where we have 
+$$
+\begin{matrix}
+N_{1} + N_{2} + N_{3} \to N_{r1} + N_{r2} \\
+(N_{2}+ N_{3}) \to N_{r23,1}  \\
+ N_{1} + N_{2} + N_{3} \equiv N_{r23,1} + N_{1}
+\end{matrix}
+$$
+in which the chain might *collapse* to one, or two variations that give the two reactant first. This route is much cleaner, but also is concerned of the same problem as the preceded formulation are. There exists no consistent analysis as to why such can happen, and how the collapse is guaranteed. This is a rather interesting entry point to what we know as transition state theory, reaction mechanism, and catalysis theory of which are developed to address such. The consequence, however, is that we do not know for sure what type of order matters, and what process would be dissimilar from which. While it is easy to say combine, separate and so on, the harder task is to ask how the reaction takes precedence. It gives prevalence to the **control theory** of chemical process, though at this stage much of that would be able within the framework, not much so of others. Another implication would be specific. After you produced $N_{r1} + N_{r2}$, here comes the question. Suppose we have 
+$$
+N_{r1} + N_{r2} + N_{4} \to \: ?
+$$
+How would you identify the mechanism again of $N_{r1}$, for example, compound? Atomic specificity identifies *dynamic under elements*. However, compounds are much different. The combinatorial exponential explosion would be apparent from here, and such is opened for analysis. Suppose there exists $0\geq k_{i}\geq K$ compound coefficient count. Then, for large interaction thereof, there exists
+$$
+\# \text{ compounds} = (K+1)^{n} - 1
+$$
+The exponential here being of the order $n$. For $n=4$, the distinctive compounds resolution is 80. Given $m$ reactants, and only binary combination of the number of ways to parenthesise all $N_{1} + N_{2} + N_{3} + \dots + N_{m}$, the number of ways would be hypothesized to be 
+$$
+\# \text{ ways} = C_{m-1} = \frac{1}{(m-1)+1} {2(m-1)\choose m-1}
+$$
+of the respective **Catalan number**. The growth of the Catalan number is essentially
+$$
+C_{m} \sim \frac{4^{m}}{m^{3/2}}
+$$
+in which reaction ordering increases substantially. The total stack gives us $(K+1)^{n}\times 4^{m}$ tracking reaction tree in plurality case of multi-reactant under ordering. This also again, imported the *ordering specificity* stated above that force the binary reaction being this way. 
+
+> In a sense, the framework promised of the resolution to Act IV that matter/material could be understood through discrete combinatorial units in simple rational ratios. What the analysis reveals is that this promise generates a search space whose complexity grows faster than any systematic investigation procedure - empirical or computational - can handle, within the baseline of the growth that would be too expensive to attack. The framework is not just incomplete, since its postulate would be rather intuitively sensible even of the current time. However, unfortunately, it is **computationally intractable** as a theory of material identity for any system of realistic complexity.
+
+Under chemical compound, there exists the question of *how to track them*, specifically, of which is $X=A+B$, for $k_1 = k_2 = 1$, then the new compound $N_{\mathrm{new}}$ is not decidable internally. Both satisfies fixed composition, reproducible properties, conserved mass up to observation heuristics, of which there exists *no other way to classify them* altogether. The move is then to have two incompatible reaction space to $X+C$ of the third element. Either primitive-$X$ where you treat it as $X$ to $C$, or compossibility of interaction to get the full-chain consistency, but you don't really know the post-local compound of how it will work with $C$, and hence have to rely on again, specific auditing process of a full book-length table lookup on every possible compound combination. Again, suppose the same setting. For compound interaction, you require $r:(X,Y)\mapsto P$ of products, where $X,Y$ can be elements or compounds. Essentially, this is a function on two space of the 
+$$
+r: (\mathcal{N}\times \mathcal{C}) \times (\mathcal{N}\times \mathcal{C}) \to \mathcal{P}(\mathcal{C})
+$$
+of the pair $(\mathcal{N}\times \mathcal{C})$ on element-count scheme. The size of the lookup table would be, 
+$$
+S = m+M \approx (K+1)^{m}, \quad S^{2} \sim (K+1)^{2m}
+$$
+for $m$ elements, $M$ distinct compound. Each compound has two modes, either primitive of the $N_{\mathrm{new}}$ component, or decomposable to $k_1,...,k_n$. Then, we have
+$$
+2^{M} = 2^{(K+1)^{m}}
+$$
+Thus, the total complexity now would be of the order in
+$$
+\mathsf{Comp} \sim (K+1)^{2m} \times 2^{(K+1)^{m}} \times 4^{K}
+$$
+This is a **super-exponential classification table** on itself, which again, is very hard to compute. 
+
+
