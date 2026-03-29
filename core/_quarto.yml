@@ -30,6 +30,7 @@ book:
       chapters: 
         - main/c1/c1.1.qmd
         - main/c1/c1.2.qmd
+        - main/c1/c1.3.qmd
     - part: "Artificial Intelligence (?)"
       chapters: 
         - main/c2/c2.1.qmd
