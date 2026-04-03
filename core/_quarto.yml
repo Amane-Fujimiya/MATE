@@ -34,6 +34,7 @@ book:
     - part: "Artificial Intelligence (?)"
       chapters: 
         - main/c2/c2.1.qmd
+        - main/c2/c2.2.qmd
     - bibliography.qmd
 
 
