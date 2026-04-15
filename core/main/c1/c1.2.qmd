@@ -302,7 +302,30 @@ Coming to the year of 1897, J.J. Thomson produced three seminal papers, all of w
 
 The elaboration into what we know of the present as the $e/m$-identification experiment, he found that each of the particles had the same small mass, about approximately $1/2000$ of the mass of a hydrogen, which, if we remember from what Prout was after, was once the proponent for the basis of the entire universal atomic model. Those experiments led him to at that time, far further than when such model t exist, believe that these particles were a basic constituent of matter; which influenced the decision, or rather the idea proposal of which can be said as atom, plus electron. The reason why such model *still retain* electron is also not a crude story either. When you have electron, smaller than the constituent part of which the entire periodic table was built on, you can only ask - where the electron is attached on such model? The way to imagine that, is to get them being absorbed, or stuck on the surface of what is said to be the atom, plumbing inside as part of the atom. That is where the **plum pudding model** was, and should be clear once we enter the Thomson atomic model. 
 
+### The **vortex atom** - string theory in a different past (1860s-1890s)
 
+The vortex atomic model in its own right is rather fascinating piece of literature, and if able, we should take time to study it in full. That said, for this section, we would rather earn it the title of being the *string theory of the past* - perfect, beautiful, yet never won at the end, albeit nearly doing so. 
+
+From the 1860s to around 1890, a theory originally proposed by William Thomson and expanded by J.J. Thomson viewed atoms as vortices in a pervasive continuous fluid medium. To understand this, we need another piece of physics - partially now you see that defining materials and atomic structures are not just that but everything of physic at once. Know theory and classical fluid dynamics are in play here. The accounts that we will take, before the analysis that jumps into directly original source, is
+
+- [A.V. Borisov et al. (eds.), IUTAM Symposium on Hamiltonian Dynamics, Vortex Structures, Turbulence, 1–10. (2008)](https://www.damtp.cam.ac.uk/user/hkm2/PDFs/Moffatt_2008_Springer_VdTloHaK_1.pdf) - **Vortex Dynamics - The Legacy of Helmholtz and Kelvin** in full. 
+- **A Vortex Atomic Model Based on Classical Fluid Mechanics** - Masahisa Shinoda and Toshi Fujiwara, Memoirs of the School of Engineering, Nagoya University, 1995. 
+- **The Vortex Theory of Atoms - pinnacle of classical physics** - Master thesis by Steven Van Der Laan, Utrecht University, December 2012. 
+- A tad bit weird direction - **Vortex Atom, A New Paradigm**, [Barry R Clarke, Brunel University, UK, April 2021](https://www.worldscientific.com/worldscibooks/10.1142/12024#t=aboutBook). The source is questionable, but we can go through with it.  
+- **Vortices and atoms in the Maxwellian era** - [Isobel Falconer, 2019](https://arxiv.org/abs/1906.00453), submission to Philosophical Transactions of the Royal Society A.  
+- Under the interesting inquiry, **Theory and applications of free-electron vortex states**, [the manuscript of Bliokh et al.](https://repository.uantwerpen.be/docman/irua/337ec5/143262_2019_05_31.pdf), and many more, Physics Review, 2019.
+- **Electron Model Based on Helmholtz’ on  Electron Vortex Theory & Kolmogorgorov’s Theory of Turbulence** - [Florentin Smarandache et al., Prespacetime Journal, January 2019](https://digitalrepository.unm.edu/cgi/viewcontent.cgi?article=1337&context=math_fsp). Tad bit suspicious, but we will work with it. 
+
+About the perceived popularity, vortex atom would not be taken down as the fringe position of the at time contemporary research. In fact, it is much more dominant of a research program in British mathematical physics for roughly thirty years, attracting the best mathematical physicists of the era. By first account in the origin of vortex dynamics, Hermann von Helmholtz introduced the concept of the vortex line and vortex filament, which is defined as 
+
+> The fluid bounded by the vortex lines passing through the points of an **"infinitely small closed curve"**. 
+
+and in which, determines the condition of what the subsequent works would do, by
+
+1. Derived the vorticity equation for an ideal incompressible fluid. 
+2. Demonstrated that vortex lines are transported with the fluid with intensification proportional to the stretching of its constituent line-elements. 
+
+All of which fed into the bold idea of the **vortex atom**, conjectured by Thomson, the same person that would come to fruition in creating the plum pudding model, who sought to explain the structure and spectra of atoms of all known elements in terms of knotted and linked vortex filament. 
 
 ### The Thomson Atomic Model
 
