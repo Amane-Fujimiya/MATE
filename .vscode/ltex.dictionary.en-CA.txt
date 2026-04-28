@@ -14,3 +14,5 @@ equivalentists
 Wiedemann
 underdetermination
 underdetermined
+congery
+deliberacy
