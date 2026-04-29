@@ -471,6 +471,7 @@ $$
 \frac{3pe^{2}}{a^{3}} > (L_{0}-L_{n/2}) - \frac{3}{4} \frac{e^{2}S_{0}}{a^{3}}, \quad \frac{3pe^{2}}{a^{3}} > (L_{0}-L_{(n-1)/2}) - \frac{3}{4} \frac{e^{2}S_{0}}{a^{3}}
 $$
 Here, $p$ is the number of stabilization electrons, or as stated of the paper, **internal corpuscles**. Indeed, within such, we can see the pattern as shown in the calculation of Thomson:
+
 ![The number of internal corpuscles needed to stabilize the ring corpuscles. Taken from Thomson's paper.](img/stabilisation_electron.png)
 
 #### Electronic stability - Larmor energy drain

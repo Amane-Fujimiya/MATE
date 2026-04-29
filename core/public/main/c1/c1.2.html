@@ -826,7 +826,40 @@ S_{n}= \frac{e^{2}}{4a^{2}} \left( \csc{\frac{\pi}{n}} + \csc{\frac{2\pi}{n}} + 
 \frac{ve^{2}a}{b^{3}} = ma\omega^{2} + \frac{e^{2}}{4a^{2}} S_{n}
 \]</span> or with manipulation algebraically, <span class="math display">\[
 \frac{va^{3}}{b^{3}} = \frac{m}{e^{2}}\omega^{2} + \frac{S_{n}}{4}
-\]</span> here <span class="math inline">\(m\)</span> is the mass of a corpuscle.</p>
+\]</span> here <span class="math inline">\(m\)</span> is the mass of a corpuscle. In the subsequent phases, after dealing with equilibrium state, what would happen is the argument when the corpuscles are slightly displaced from their positions equilibrium. Let the position of the corpuscles be fixed by the polar coordinates <span class="math inline">\(r\)</span> and <span class="math inline">\(\theta\)</span> in the plane of the undisturbed orbit, by displacement <span class="math inline">\(z\)</span> at right angles to this plane. Let <span class="math inline">\(r_{s},\theta_{s},z_{s}\)</span> be the coordinates of the <span class="math inline">\(s\)</span>-th corpuscle. The slight disturbance from their positions can be said to be <span class="math inline">\(r_{s}=a+\rho_{s}\)</span> where <span class="math inline">\(\rho_{s}\)</span>is small compared with <span class="math inline">\(a\)</span>, <span class="math inline">\(z_{s}\)</span> is also small compared with <span class="math inline">\(a\)</span>, and <span class="math inline">\(\theta_{s}-\theta_{s-1}=2\pi/n + \phi_{s}-\phi_{s-1}\)</span>, where <span class="math inline">\(n\)</span> is the number of corpuscles and <span class="math inline">\(\phi\)</span>’s are small quantities of the same form on perturbation mechanics. The intention is to see if the condition can be reverted of equilibrium from the radial repulsion, which encapsulates the system by description to stabilize the atom. For such, the radial repulsion exerted by the <span class="math inline">\(s\)</span>-th corpuscle on the <span class="math inline">\(p\)</span>-th is equal to <span class="math display">\[
+-e^{2} \frac{d}{dr_{p}} \frac{1}{(r^{2}_{p}+r_{s}^{2}-2r_{p}r_{s}\cos{(\theta_{s}-\theta_{p})}+(z_{p}-z_{s})^{2})^{1/2}}
+\]</span> For this, solving and deriving, he obtains the equation of motion of the <span class="math inline">\(p\)</span>-th corpuscle under that constrained and perturbation, given as <span class="math display">\[
+\begin{align*}
+    &amp; m \left(\frac{d^{2}r_{p}}{dt^{2}}-r_{p} \left(\frac{d\theta_{p}}{dt}\right)^{2} \right) = -\frac{ve^{2}r_{p}}{b^{3}}+ R_{p}; \\
+    &amp; m \left( r \frac{d^{2}\theta_{p}}{dt^{2}} + 2\frac{dr}{dt} \frac{d\theta_{p}}{dt} \right) = \Theta_{p} \\
+    &amp; m \frac{d^{2}z_{p}}{dt^{2}} = -\frac{ve^{2}}{b^{3}}z_{p} + Z_{p}
+\end{align*}
+\]</span> for individual radial, tangential and right angle forces, respectively. Solving this using frequency theory of the time, he obtains the frequency equation as <span class="math display">\[
+\left( \frac{3}{4} \frac{e^{2}}{a^{3}} S + L_{k} - L_{0} - mq^{2} \right) (N_{0}-N_{k}-mq^{2}) = (M_{k} - 2m\omega q)^{2}
+\]</span> for <span class="math inline">\(k\)</span> in this equation varies of order from <span class="math inline">\(0\)</span> to <span class="math inline">\((n-1)\)</span>. The notation is defined in the document, of which would be rather interested if you are to see from the paper itself (a copy can be found <a href="https://uni-tuebingen.de/fileadmin/Uni_Tuebingen/Fakultaeten/MathePhysik/Institute/IAP/Forschung/MOettel/Geburt_QM/thomson_PhilMag_7_237_1904.pdf">here</a>, respectively). By a series of derivation, solving and targeting the right angles motion, the problem is reduced to the expression for the descriptive dynamics as <span class="math display">\[
+\frac{ve}{b^3} + P_{k} - P_{0} - mq^{2} = 0
+\]</span> Putting in succession <span class="math inline">\(k=0,1,...,n-1\)</span>, we can get <span class="math inline">\(n\)</span> values of <span class="math inline">\(q\)</span> giving the <span class="math inline">\(n\)</span> frequencies corresponding to the displacements at right angles to the plane of the undisturbed orbit. To then calculate the frequencies for systems containing various numbers of corpuscles, the four quantities specified above, namely <span class="math inline">\(L_k, M_k, N_k, P_k\)</span> which occurs in the frequency equation, can now be completely computed by <span class="math display">\[
+\begin{align*}
+    T_{k} &amp; = \sum^{n-1}_{1}\cos{\frac{2\pi ks}{n}} \left( \sin^{3}{\frac{s\pi}{n}}\right)^{-1} \\
+    S_{k} &amp; = \sum^{n-1}_{1}\cos{\frac{2\pi ks}{n}} \left( \sin{\frac{s\pi}{n}}\right)^{-1} \\
+    U_{k} &amp; = \sum^{n-1}_{1}\sin{\frac{2\pi ks}{n}} \left( \dfrac{\cos{\dfrac{s\pi}{n}}}{\sin^{2}{\dfrac{s\pi}{n}}}\right)
+\end{align*}
+\]</span> which gives <span class="math display">\[
+\begin{matrix}
+    L_{k} (S_{k}+T_{k}) \dfrac{e^{2}}{8a^{3}} &amp; N_{k} = (2T_{k} - S_{k}) \dfrac{e^{2}}{8a^{3}} \\
+    M_{k} = U_{k} \dfrac{e^{2}}{8a^{3}} &amp; P_{k} = T_{k} \dfrac{e^{2}}{8a^{3}}
+\end{matrix}
+\]</span> This can be then used, in the paper, to solve for case of two corpuscles, i.e.&nbsp;<span class="math inline">\(n=2\)</span> up to <span class="math inline">\(n=6\)</span>. Interestingly, the model predicts instability at <span class="math inline">\(n\geq 7\)</span> and so on, particularly requiring stability analysis of sort. Indeed, “for a single corpuscle in the centre is sufficient to make rings of 7 and 8 corpuscles stable”, thence given such, there exists an extreme minimal on which a single electron repulse and operate on the dual purpose - both being electronic configuration of the system, both providing repulsive stabilisation force. When the number of corpuscles exceeds 8, however, “the number of central corpuscles required to ensure stability <em>increases very rapidly</em> with the number of corpuscles in the ring”. The frequency equation, that is, <span class="math display">\[
+\left(\frac{3 e^{2} S_{0}}{4 a^{3}}+ \frac{3 p e^{2}}{a^{3}}- \left(L_{0} - L_{k}\right)- m q^{2}\right)\left(N_{0} - N_{k} - m q^{2}\right)=\left(M_{k} - 2 m \omega q\right)^{2}.
+\]</span> gives the least condition, that is, <span class="math display">\[
+\frac{3pe^{2}}{a^{3}} &gt; (L_{0}-L_{n/2}) - \frac{3}{4} \frac{e^{2}S_{0}}{a^{3}}, \quad \frac{3pe^{2}}{a^{3}} &gt; (L_{0}-L_{(n-1)/2}) - \frac{3}{4} \frac{e^{2}S_{0}}{a^{3}}
+\]</span> Here, <span class="math inline">\(p\)</span> is the number of stabilization electrons, or as stated of the paper, <strong>internal corpuscles</strong>. Indeed, within such, we can see the pattern as shown in the calculation of Thomson:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="img/stabilisation_electron.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="The number of internal corpuscles needed to stabilize the ring corpuscles. Taken from Thomson’s paper."><img src="img/stabilisation_electron.png" class="img-fluid figure-img" alt="The number of internal corpuscles needed to stabilize the ring corpuscles. Taken from Thomson’s paper."></a></p>
+<figcaption>The number of internal corpuscles needed to stabilize the ring corpuscles. Taken from Thomson’s paper.</figcaption>
+</figure>
+</div>
 </section>
 <section id="electronic-stability---larmor-energy-drain" class="level4" data-number="3.2.4.2">
 <h4 data-number="3.2.4.2" class="anchored" data-anchor-id="electronic-stability---larmor-energy-drain"><span class="header-section-number">3.2.4.2</span> Electronic stability - Larmor energy drain</h4>
@@ -834,7 +867,7 @@ S_{n}= \frac{e^{2}}{4a^{2}} \left( \csc{\frac{\pi}{n}} + \csc{\frac{2\pi}{n}} + 
 \frac{dE}{dt} = \frac{2}{3} \left( \frac{e^{2}v^{4}}{ca^{2}} \right)
 \]</span> for here <span class="math inline">\(c\)</span> denotes the velocity of light. For most electronic configuration with many electrons, the effect will not be so additive. On the contrary, considering the case <span class="math inline">\(n\)</span> electron, Thomson proved that the radiation drain reduced drastically with <span class="math inline">\(n\)</span> with specific configuration, though this comes with a cost of non-uniformity in analysis. The general formulation of energy lost is given by, under <span class="math inline">\(n\)</span>-equidistantly placed configuration of electrons on a single ring, the derivation gives <span class="math display">\[
 \left( \frac{dE}{dt} \right)_{n} = \frac{2ce^2 \beta^{2n+2}}{a^{2}} \frac{(n+1)n^{2n+3}}{(2n+1)!}
-\]</span> where <span class="math inline">\(\beta=v/c\)</span> was assumed to be small. However, the issue is much more deliberate, moreso as to be serious in its form. In his original paper on the topic, derivation for stability states of <span class="math inline">\(n=6\)</span> was made, but a ring of 7-8 corpuscle can also be obtained per generality. it is also from here we come to the true shape of how electron are configured, not just a single ring, but multiple, coming from top to bottom and together form a cloud, which, ironically, is similar to current modern physics. The frequency equation that he used to solve on stability condition for seven or eight corpuscles, comes off as <span class="math display">\[
+\]</span> where <span class="math inline">\(\beta=v/c\)</span> was assumed to be small. However, the issue is much more deliberate, moreso as to be serious in its form. In his original paper on the topic, derivation for stability states of <span class="math inline">\(n=6\)</span> was made, but a ring of 7-8 corpuscle can also be obtained per generality. it is also from here we come to the true shape of how electron are configured, not just a single ring, but multiple, coming from top to bottom and together form a cloud, which, ironically, is similar to current modern physics. The frequency equation that he used to solve on stability condition for seven or eight corpuscles, comes off as (recited from above) <span class="math display">\[
 \left(\frac{3 e^{2} S_{0}}{4 a^{3}}+ \frac{3 p e^{2}}{a^{3}}- \left(L_{0} - L_{k}\right)- m q^{2}\right)\left(N_{0} - N_{k} - m q^{2}\right)=\left(M_{k} - 2 m \omega q\right)^{2}.
 \]</span> For the condition equal, the meaning of such equation inferred into the normal framework is basically a <em>frequency normal-mode</em> equation for small oscillation of <span class="math inline">\(n\)</span> electron, under configuration of multi-layering ring inside the usual ‘fluid’ uniform positive sphere. This equation basically fell out when he wants to seriously do <strong>perturbation analysis</strong> of the system as one.</p>
 
@@ -1841,32 +1874,77 @@ Watt, James. 1769. <span>“A Method of Lessening the Consumption of Steam in St
 <span id="cb1-427"><a href="#cb1-427" aria-hidden="true" tabindex="-1"></a>$$</span>
 <span id="cb1-428"><a href="#cb1-428" aria-hidden="true" tabindex="-1"></a>\frac{va^{3}}{b^{3}} = \frac{m}{e^{2}}\omega^{2} + \frac{S_{n}}{4}</span>
 <span id="cb1-429"><a href="#cb1-429" aria-hidden="true" tabindex="-1"></a>$$</span>
-<span id="cb1-430"><a href="#cb1-430" aria-hidden="true" tabindex="-1"></a>here $m$ is the mass of a corpuscle. </span>
-<span id="cb1-431"><a href="#cb1-431" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-432"><a href="#cb1-432" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Electronic stability - Larmor energy drain</span></span>
-<span id="cb1-433"><a href="#cb1-433" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-434"><a href="#cb1-434" aria-hidden="true" tabindex="-1"></a>Larmor in his *Aether and Matter* of the 1900, gave the energy lost by which Maxwellian electrodynamics predicted of radiation energy from accelerating (of the time, note that relativistic effect is still not quite a thing), which would leave to an atomic collapse, of charge $e$ revolving with speed $v$ on a circle of radius $a$, as</span>
+<span id="cb1-430"><a href="#cb1-430" aria-hidden="true" tabindex="-1"></a>here $m$ is the mass of a corpuscle. In the subsequent phases, after dealing with equilibrium state, what would happen is the argument when the corpuscles are slightly displaced from their positions equilibrium. Let the position of the corpuscles be fixed by the polar coordinates $r$ and $\theta$ in the plane of the undisturbed orbit, by displacement $z$ at right angles to this plane. Let $r_{s},\theta_{s},z_{s}$ be the coordinates of the $s$-th corpuscle. The slight disturbance from their positions can be said to be $r_{s}=a+\rho_{s}$ where $\rho_{s}$is small compared with $a$, $z_{s}$ is also small compared with $a$, and $\theta_{s}-\theta_{s-1}=2\pi/n + \phi_{s}-\phi_{s-1}$, where $n$ is the number of corpuscles and $\phi$'s are small quantities of the same form on perturbation mechanics. The intention is to see if the condition can be reverted of equilibrium from the radial repulsion, which encapsulates the system by description to stabilize the atom. For such, the radial repulsion exerted by the $s$-th corpuscle on the $p$-th is equal to </span>
+<span id="cb1-431"><a href="#cb1-431" aria-hidden="true" tabindex="-1"></a>$$</span>
+<span id="cb1-432"><a href="#cb1-432" aria-hidden="true" tabindex="-1"></a>-e^{2} \frac{d}{dr_{p}} \frac{1}{(r^{2}_{p}+r_{s}^{2}-2r_{p}r_{s}\cos{(\theta_{s}-\theta_{p})}+(z_{p}-z_{s})^{2})^{1/2}}</span>
+<span id="cb1-433"><a href="#cb1-433" aria-hidden="true" tabindex="-1"></a>$$</span>
+<span id="cb1-434"><a href="#cb1-434" aria-hidden="true" tabindex="-1"></a>For this, solving and deriving, he obtains the equation of motion of the $p$-th corpuscle under that constrained and perturbation, given as</span>
 <span id="cb1-435"><a href="#cb1-435" aria-hidden="true" tabindex="-1"></a>$$</span>
-<span id="cb1-436"><a href="#cb1-436" aria-hidden="true" tabindex="-1"></a>\frac{dE}{dt} = \frac{2}{3} \left( \frac{e^{2}v^{4}}{ca^{2}} \right)</span>
-<span id="cb1-437"><a href="#cb1-437" aria-hidden="true" tabindex="-1"></a>$$</span>
-<span id="cb1-438"><a href="#cb1-438" aria-hidden="true" tabindex="-1"></a>for here $c$ denotes the velocity of light. For most electronic configuration with many electrons, the effect will not be so additive. On the contrary, considering the case $n$ electron, Thomson proved that the radiation drain reduced drastically with $n$ with specific configuration, though this comes with a cost of non-uniformity in analysis. The general formulation of energy lost is given by, under $n$-equidistantly placed configuration of electrons on a single ring, the derivation gives </span>
-<span id="cb1-439"><a href="#cb1-439" aria-hidden="true" tabindex="-1"></a>$$</span>
-<span id="cb1-440"><a href="#cb1-440" aria-hidden="true" tabindex="-1"></a>\left( \frac{dE}{dt} \right)_{n} = \frac{2ce^2 \beta^{2n+2}}{a^{2}} \frac{(n+1)n^{2n+3}}{(2n+1)!}</span>
+<span id="cb1-436"><a href="#cb1-436" aria-hidden="true" tabindex="-1"></a>\begin{align*}</span>
+<span id="cb1-437"><a href="#cb1-437" aria-hidden="true" tabindex="-1"></a>    &amp; m \left(\frac{d^{2}r_{p}}{dt^{2}}-r_{p} \left(\frac{d\theta_{p}}{dt}\right)^{2} \right) = -\frac{ve^{2}r_{p}}{b^{3}}+ R_{p}; <span class="sc">\\</span></span>
+<span id="cb1-438"><a href="#cb1-438" aria-hidden="true" tabindex="-1"></a>    &amp; m \left( r \frac{d^{2}\theta_{p}}{dt^{2}} + 2\frac{dr}{dt} \frac{d\theta_{p}}{dt} \right) = \Theta_{p} <span class="sc">\\</span></span>
+<span id="cb1-439"><a href="#cb1-439" aria-hidden="true" tabindex="-1"></a>    &amp; m \frac{d^{2}z_{p}}{dt^{2}} = -\frac{ve^{2}}{b^{3}}z_{p} + Z_{p}</span>
+<span id="cb1-440"><a href="#cb1-440" aria-hidden="true" tabindex="-1"></a>\end{align*}</span>
 <span id="cb1-441"><a href="#cb1-441" aria-hidden="true" tabindex="-1"></a>$$</span>
-<span id="cb1-442"><a href="#cb1-442" aria-hidden="true" tabindex="-1"></a>where $\beta=v/c$ was assumed to be small. However, the issue is much more deliberate, moreso as to be serious in its form. In his original paper on the topic, derivation for stability states of $n=6$ was made, but a ring of 7-8 corpuscle can also be obtained per generality. it is also from here we come to the true shape of how electron are configured, not just a single ring, but multiple, coming from top to bottom and together form a cloud, which, ironically, is similar to current modern physics. The frequency equation that he used to solve on stability condition for seven or eight corpuscles, comes off as</span>
+<span id="cb1-442"><a href="#cb1-442" aria-hidden="true" tabindex="-1"></a>for individual radial, tangential and right angle forces, respectively. Solving this using frequency theory of the time, he obtains the frequency equation as </span>
 <span id="cb1-443"><a href="#cb1-443" aria-hidden="true" tabindex="-1"></a>$$</span>
-<span id="cb1-444"><a href="#cb1-444" aria-hidden="true" tabindex="-1"></a>\left(\frac{3 e^{2} S_{0}}{4 a^{3}}+ \frac{3 p e^{2}}{a^{3}}- \left(L_{0} - L_{k}\right)- m q^{2}\right)\left(N_{0} - N_{k} - m q^{2}\right)=\left(M_{k} - 2 m \omega q\right)^{2}.</span>
+<span id="cb1-444"><a href="#cb1-444" aria-hidden="true" tabindex="-1"></a>\left( \frac{3}{4} \frac{e^{2}}{a^{3}} S + L_{k} - L_{0} - mq^{2} \right) (N_{0}-N_{k}-mq^{2}) = (M_{k} - 2m\omega q)^{2}</span>
 <span id="cb1-445"><a href="#cb1-445" aria-hidden="true" tabindex="-1"></a>$$</span>
-<span id="cb1-446"><a href="#cb1-446" aria-hidden="true" tabindex="-1"></a>For the condition equal, the meaning of such equation inferred into the normal framework is basically a *frequency normal-mode* equation for small oscillation of $n$ electron, under configuration of multi-layering ring inside the usual 'fluid' uniform positive sphere. This equation basically fell out when he wants to seriously do **perturbation analysis** of the system as one. </span>
-<span id="cb1-447"><a href="#cb1-447" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-448"><a href="#cb1-448" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-449"><a href="#cb1-449" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-450"><a href="#cb1-450" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-451"><a href="#cb1-451" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-452"><a href="#cb1-452" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-453"><a href="#cb1-453" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-454"><a href="#cb1-454" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-455"><a href="#cb1-455" aria-hidden="true" tabindex="-1"></a></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+<span id="cb1-446"><a href="#cb1-446" aria-hidden="true" tabindex="-1"></a>for $k$ in this equation varies of order from $0$ to $(n-1)$. The notation is defined in the document, of which would be rather interested if you are to see from the paper itself (a copy can be found <span class="co">[</span><span class="ot">here</span><span class="co">](https://uni-tuebingen.de/fileadmin/Uni_Tuebingen/Fakultaeten/MathePhysik/Institute/IAP/Forschung/MOettel/Geburt_QM/thomson_PhilMag_7_237_1904.pdf)</span>, respectively). By a series of derivation, solving and targeting the right angles motion, the problem is reduced to the expression for the descriptive dynamics as</span>
+<span id="cb1-447"><a href="#cb1-447" aria-hidden="true" tabindex="-1"></a>$$</span>
+<span id="cb1-448"><a href="#cb1-448" aria-hidden="true" tabindex="-1"></a>\frac{ve}{b^3} + P_{k} - P_{0} - mq^{2} = 0</span>
+<span id="cb1-449"><a href="#cb1-449" aria-hidden="true" tabindex="-1"></a>$$ </span>
+<span id="cb1-450"><a href="#cb1-450" aria-hidden="true" tabindex="-1"></a>Putting in succession $k=0,1,...,n-1$, we can get $n$ values of $q$ giving the $n$ frequencies corresponding to the displacements at right angles to the plane of the undisturbed orbit. To then calculate the frequencies for systems containing various numbers of corpuscles, the four quantities specified above, namely $L_k, M_k, N_k, P_k$ which occurs in the frequency equation, can now be completely computed by</span>
+<span id="cb1-451"><a href="#cb1-451" aria-hidden="true" tabindex="-1"></a>$$</span>
+<span id="cb1-452"><a href="#cb1-452" aria-hidden="true" tabindex="-1"></a>\begin{align*}</span>
+<span id="cb1-453"><a href="#cb1-453" aria-hidden="true" tabindex="-1"></a>    T_{k} &amp; = \sum^{n-1}_{1}\cos{\frac{2\pi ks}{n}} \left( \sin^{3}{\frac{s\pi}{n}}\right)^{-1} <span class="sc">\\</span></span>
+<span id="cb1-454"><a href="#cb1-454" aria-hidden="true" tabindex="-1"></a>    S_{k} &amp; = \sum^{n-1}_{1}\cos{\frac{2\pi ks}{n}} \left( \sin{\frac{s\pi}{n}}\right)^{-1} <span class="sc">\\</span></span>
+<span id="cb1-455"><a href="#cb1-455" aria-hidden="true" tabindex="-1"></a>    U_{k} &amp; = \sum^{n-1}_{1}\sin{\frac{2\pi ks}{n}} \left( \dfrac{\cos{\dfrac{s\pi}{n}}}{\sin^{2}{\dfrac{s\pi}{n}}}\right)</span>
+<span id="cb1-456"><a href="#cb1-456" aria-hidden="true" tabindex="-1"></a>\end{align*}</span>
+<span id="cb1-457"><a href="#cb1-457" aria-hidden="true" tabindex="-1"></a>$$</span>
+<span id="cb1-458"><a href="#cb1-458" aria-hidden="true" tabindex="-1"></a>which gives</span>
+<span id="cb1-459"><a href="#cb1-459" aria-hidden="true" tabindex="-1"></a>$$</span>
+<span id="cb1-460"><a href="#cb1-460" aria-hidden="true" tabindex="-1"></a>\begin{matrix}</span>
+<span id="cb1-461"><a href="#cb1-461" aria-hidden="true" tabindex="-1"></a>    L_{k} (S_{k}+T_{k}) \dfrac{e^{2}}{8a^{3}} &amp; N_{k} = (2T_{k} - S_{k}) \dfrac{e^{2}}{8a^{3}} <span class="sc">\\</span></span>
+<span id="cb1-462"><a href="#cb1-462" aria-hidden="true" tabindex="-1"></a>    M_{k} = U_{k} \dfrac{e^{2}}{8a^{3}} &amp; P_{k} = T_{k} \dfrac{e^{2}}{8a^{3}}</span>
+<span id="cb1-463"><a href="#cb1-463" aria-hidden="true" tabindex="-1"></a>\end{matrix}</span>
+<span id="cb1-464"><a href="#cb1-464" aria-hidden="true" tabindex="-1"></a>$$</span>
+<span id="cb1-465"><a href="#cb1-465" aria-hidden="true" tabindex="-1"></a>This can be then used, in the paper, to solve for case of two corpuscles, i.e. $n=2$ up to $n=6$. Interestingly, the model predicts instability at $n\geq 7$ and so on, particularly requiring stability analysis of sort. Indeed, "for a single corpuscle in the centre is sufficient to make rings of 7 and 8 corpuscles stable", thence given such, there exists an extreme minimal on which a single electron repulse and operate on the dual purpose - both being electronic configuration of the system, both providing repulsive stabilisation force. When the number of corpuscles exceeds 8, however, "the number of central corpuscles required to ensure stability *increases very rapidly* with the number of corpuscles in the ring". The frequency equation, that is, </span>
+<span id="cb1-466"><a href="#cb1-466" aria-hidden="true" tabindex="-1"></a>$$</span>
+<span id="cb1-467"><a href="#cb1-467" aria-hidden="true" tabindex="-1"></a>\left(\frac{3 e^{2} S_{0}}{4 a^{3}}+ \frac{3 p e^{2}}{a^{3}}- \left(L_{0} - L_{k}\right)- m q^{2}\right)\left(N_{0} - N_{k} - m q^{2}\right)=\left(M_{k} - 2 m \omega q\right)^{2}.</span>
+<span id="cb1-468"><a href="#cb1-468" aria-hidden="true" tabindex="-1"></a>$$</span>
+<span id="cb1-469"><a href="#cb1-469" aria-hidden="true" tabindex="-1"></a>gives the least condition, that is, </span>
+<span id="cb1-470"><a href="#cb1-470" aria-hidden="true" tabindex="-1"></a>$$</span>
+<span id="cb1-471"><a href="#cb1-471" aria-hidden="true" tabindex="-1"></a>\frac{3pe^{2}}{a^{3}} &gt; (L_{0}-L_{n/2}) - \frac{3}{4} \frac{e^{2}S_{0}}{a^{3}}, \quad \frac{3pe^{2}}{a^{3}} &gt; (L_{0}-L_{(n-1)/2}) - \frac{3}{4} \frac{e^{2}S_{0}}{a^{3}}</span>
+<span id="cb1-472"><a href="#cb1-472" aria-hidden="true" tabindex="-1"></a>$$</span>
+<span id="cb1-473"><a href="#cb1-473" aria-hidden="true" tabindex="-1"></a>Here, $p$ is the number of stabilization electrons, or as stated of the paper, **internal corpuscles**. Indeed, within such, we can see the pattern as shown in the calculation of Thomson:</span>
+<span id="cb1-474"><a href="#cb1-474" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-475"><a href="#cb1-475" aria-hidden="true" tabindex="-1"></a><span class="al">![The number of internal corpuscles needed to stabilize the ring corpuscles. Taken from Thomson's paper.](img/stabilisation_electron.png)</span></span>
+<span id="cb1-476"><a href="#cb1-476" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-477"><a href="#cb1-477" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Electronic stability - Larmor energy drain</span></span>
+<span id="cb1-478"><a href="#cb1-478" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-479"><a href="#cb1-479" aria-hidden="true" tabindex="-1"></a>Larmor in his *Aether and Matter* of the 1900, gave the energy lost by which Maxwellian electrodynamics predicted of radiation energy from accelerating (of the time, note that relativistic effect is still not quite a thing), which would leave to an atomic collapse, of charge $e$ revolving with speed $v$ on a circle of radius $a$, as</span>
+<span id="cb1-480"><a href="#cb1-480" aria-hidden="true" tabindex="-1"></a>$$</span>
+<span id="cb1-481"><a href="#cb1-481" aria-hidden="true" tabindex="-1"></a>\frac{dE}{dt} = \frac{2}{3} \left( \frac{e^{2}v^{4}}{ca^{2}} \right)</span>
+<span id="cb1-482"><a href="#cb1-482" aria-hidden="true" tabindex="-1"></a>$$</span>
+<span id="cb1-483"><a href="#cb1-483" aria-hidden="true" tabindex="-1"></a>for here $c$ denotes the velocity of light. For most electronic configuration with many electrons, the effect will not be so additive. On the contrary, considering the case $n$ electron, Thomson proved that the radiation drain reduced drastically with $n$ with specific configuration, though this comes with a cost of non-uniformity in analysis. The general formulation of energy lost is given by, under $n$-equidistantly placed configuration of electrons on a single ring, the derivation gives </span>
+<span id="cb1-484"><a href="#cb1-484" aria-hidden="true" tabindex="-1"></a>$$</span>
+<span id="cb1-485"><a href="#cb1-485" aria-hidden="true" tabindex="-1"></a>\left( \frac{dE}{dt} \right)_{n} = \frac{2ce^2 \beta^{2n+2}}{a^{2}} \frac{(n+1)n^{2n+3}}{(2n+1)!}</span>
+<span id="cb1-486"><a href="#cb1-486" aria-hidden="true" tabindex="-1"></a>$$</span>
+<span id="cb1-487"><a href="#cb1-487" aria-hidden="true" tabindex="-1"></a>where $\beta=v/c$ was assumed to be small. However, the issue is much more deliberate, moreso as to be serious in its form. In his original paper on the topic, derivation for stability states of $n=6$ was made, but a ring of 7-8 corpuscle can also be obtained per generality. it is also from here we come to the true shape of how electron are configured, not just a single ring, but multiple, coming from top to bottom and together form a cloud, which, ironically, is similar to current modern physics. The frequency equation that he used to solve on stability condition for seven or eight corpuscles, comes off as (recited from above)</span>
+<span id="cb1-488"><a href="#cb1-488" aria-hidden="true" tabindex="-1"></a>$$</span>
+<span id="cb1-489"><a href="#cb1-489" aria-hidden="true" tabindex="-1"></a>\left(\frac{3 e^{2} S_{0}}{4 a^{3}}+ \frac{3 p e^{2}}{a^{3}}- \left(L_{0} - L_{k}\right)- m q^{2}\right)\left(N_{0} - N_{k} - m q^{2}\right)=\left(M_{k} - 2 m \omega q\right)^{2}.</span>
+<span id="cb1-490"><a href="#cb1-490" aria-hidden="true" tabindex="-1"></a>$$</span>
+<span id="cb1-491"><a href="#cb1-491" aria-hidden="true" tabindex="-1"></a>For the condition equal, the meaning of such equation inferred into the normal framework is basically a *frequency normal-mode* equation for small oscillation of $n$ electron, under configuration of multi-layering ring inside the usual 'fluid' uniform positive sphere. This equation basically fell out when he wants to seriously do **perturbation analysis** of the system as one. </span>
+<span id="cb1-492"><a href="#cb1-492" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-493"><a href="#cb1-493" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-494"><a href="#cb1-494" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-495"><a href="#cb1-495" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-496"><a href="#cb1-496" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-497"><a href="#cb1-497" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-498"><a href="#cb1-498" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-499"><a href="#cb1-499" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-500"><a href="#cb1-500" aria-hidden="true" tabindex="-1"></a></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 <footer class="footer">
