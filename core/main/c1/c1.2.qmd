@@ -397,7 +397,81 @@ We ought to continue with what Thomson is doing. In works of 1903-1904 period, t
 
 Simplification of the model was made, so that mathematically, it is mostly planar, but he was rather well aware that to obtain a more realistic model, he would have to consider the actual 3D space, which improvises the mathematical idealization of many of its unrealized frame of degree of freedoms. That said, the typical picture, including which we said and stated of above, and of which the problem on volumetric disparage, while constrained here now we have his direct treatments, is often misrepresented, and hid the genuinely phenomenal result give of such time. 
 
-A critical point and failure, of which would be patched up by Thomson's treatment, using his heuristic approach of the model, comes from the solution, or at least partially so under his framework, about *electrodynamic stability*, and *mechanical stability*. On either side, to satisfy either, he is to perform the following. 
+A critical point and failure, of which would be patched up by Thomson's treatment, using his heuristic approach of the model, comes from the solution, or at least partially so under his framework, about *electrodynamic stability*, and *mechanical stability*. On either side, to satisfy either, he is to perform the search for conditions that would be favourable of both, so much so that they do not collapse on their own weight, which is a rather mechanical-electronical problem in dual than just one. 
+
+#### The Thomson's paper - *On the Structure of the Atom*
+
+Let us trace his paper from the start. It begins as to state of the central problem of the time - the view that "the atoms of elements consist of a number of **negatively electrified** (charged) corpuscles enclosed in a sphere of uniform **positive electrification**", of which suggest a configuration where $n$ negatively electrified, or so *electron*, corpuscles are probed of their motions inside such system. What he was hinting at, is toward the *existence of particles*, thus posit that the configuration of the system from his knowledge and of the time, to be in equilibrium. Such is why the problem starts with equilibrium structure situation, and continue on with motions inside this equilibrium sphere. We note that under this view, none of the $e_{n}$ escapes the structure of the atom itself. 
+
+For charge $ve$ of the sphere, $b$ sphere radius and $a$ radius of the corpuscle, then
+$$
+G_{corp}= \frac{ve^{2}a}{b^{3}}, \quad G_{ij} = \frac{e^{2}}{4r_{i}^{2}\sin{(1/2)\theta_{ij}}}
+$$
+is the positive electrification force attracting the corpuscle; here, $\theta_{ij}$ is the angle made by the joint $r_{i}$ and $r_{j}$, of two objects $A$ and $B$ of such distance from the centre of the sphere. This presupposes *radially uniform, single directed* attractive force toward the corpuscle, even inside the positive sphere. Surprisingly, yet rather interesting, this also conditions a point-attractive **valley**, or an atom. The other forces in action, is the repulsion $G_{ij}$, of which for uniform distribution of $2\pi/n$ on a single ring, then the radial repulsion on one corpuscle due to the other $(n-1)$ is equal to
+$$
+\frac{e^{2}}{4a^{2}} \left( \csc{\frac{\pi}{n}} + \csc{\frac{2\pi}{n}} + \csc{\frac{3\pi}{n}} + \dots + \csc{\frac{(n-1)\pi}{n}} \right)
+$$
+The radial attraction, $G_{corp}=S_{n}$ for $n$ corpuscles, in equilibrium position, must equal to such expression, hence, 
+$$
+S_{n}= \frac{e^{2}}{4a^{2}} \left( \csc{\frac{\pi}{n}} + \csc{\frac{2\pi}{n}} + \csc{\frac{3\pi}{n}} + \dots + \csc{\frac{(n-1)\pi}{n}} \right) \equiv \frac{e^{2}}{4a^{2}} \sum^{n}_{i=2}\csc{\frac{(i-1)\pi}{i}} 
+$$
+or, in a simplified form, 
+$$
+\frac{a^{3}}{b^{3}} = \frac{S_{n}}{4v}
+$$
+The separated values are computed explicitly with both $S_{n}$ and $a/b$, using empirical predictions of the time. If the ring of the corpuscles, instead of being at rest, is rotating with an angular velocity $\omega$, the condition for steady motion is
+$$
+\frac{ve^{2}a}{b^{3}} = ma\omega^{2} + \frac{e^{2}}{4a^{2}} S_{n}
+$$
+or with manipulation algebraically, 
+$$
+\frac{va^{3}}{b^{3}} = \frac{m}{e^{2}}\omega^{2} + \frac{S_{n}}{4}
+$$
+here $m$ is the mass of a corpuscle. In the subsequent phases, after dealing with equilibrium state, what would happen is the argument when the corpuscles are slightly displaced from their positions equilibrium. Let the position of the corpuscles be fixed by the polar coordinates $r$ and $\theta$ in the plane of the undisturbed orbit, by displacement $z$ at right angles to this plane. Let $r_{s},\theta_{s},z_{s}$ be the coordinates of the $s$-th corpuscle. The slight disturbance from their positions can be said to be $r_{s}=a+\rho_{s}$ where $\rho_{s}$is small compared with $a$, $z_{s}$ is also small compared with $a$, and $\theta_{s}-\theta_{s-1}=2\pi/n + \phi_{s}-\phi_{s-1}$, where $n$ is the number of corpuscles and $\phi$'s are small quantities of the same form on perturbation mechanics. The intention is to see if the condition can be reverted of equilibrium from the radial repulsion, which encapsulates the system by description to stabilize the atom. For such, the radial repulsion exerted by the $s$-th corpuscle on the $p$-th is equal to 
+$$
+-e^{2} \frac{d}{dr_{p}} \frac{1}{(r^{2}_{p}+r_{s}^{2}-2r_{p}r_{s}\cos{(\theta_{s}-\theta_{p})}+(z_{p}-z_{s})^{2})^{1/2}}
+$$
+For this, solving and deriving, he obtains the equation of motion of the $p$-th corpuscle under that constrained and perturbation, given as
+$$
+\begin{align*}
+    & m \left(\frac{d^{2}r_{p}}{dt^{2}}-r_{p} \left(\frac{d\theta_{p}}{dt}\right)^{2} \right) = -\frac{ve^{2}r_{p}}{b^{3}}+ R_{p}; \\
+    & m \left( r \frac{d^{2}\theta_{p}}{dt^{2}} + 2\frac{dr}{dt} \frac{d\theta_{p}}{dt} \right) = \Theta_{p} \\
+    & m \frac{d^{2}z_{p}}{dt^{2}} = -\frac{ve^{2}}{b^{3}}z_{p} + Z_{p}
+\end{align*}
+$$
+for individual radial, tangential and right angle forces, respectively. Solving this using frequency theory of the time, he obtains the frequency equation as 
+$$
+\left( \frac{3}{4} \frac{e^{2}}{a^{3}} S + L_{k} - L_{0} - mq^{2} \right) (N_{0}-N_{k}-mq^{2}) = (M_{k} - 2m\omega q)^{2}
+$$
+for $k$ in this equation varies of order from $0$ to $(n-1)$. The notation is defined in the document, of which would be rather interested if you are to see from the paper itself (a copy can be found [here](https://uni-tuebingen.de/fileadmin/Uni_Tuebingen/Fakultaeten/MathePhysik/Institute/IAP/Forschung/MOettel/Geburt_QM/thomson_PhilMag_7_237_1904.pdf), respectively). By a series of derivation, solving and targeting the right angles motion, the problem is reduced to the expression for the descriptive dynamics as
+$$
+\frac{ve}{b^3} + P_{k} - P_{0} - mq^{2} = 0
+$$ 
+Putting in succession $k=0,1,...,n-1$, we can get $n$ values of $q$ giving the $n$ frequencies corresponding to the displacements at right angles to the plane of the undisturbed orbit. To then calculate the frequencies for systems containing various numbers of corpuscles, the four quantities specified above, namely $L_k, M_k, N_k, P_k$ which occurs in the frequency equation, can now be completely computed by
+$$
+\begin{align*}
+    T_{k} & = \sum^{n-1}_{1}\cos{\frac{2\pi ks}{n}} \left( \sin^{3}{\frac{s\pi}{n}}\right)^{-1} \\
+    S_{k} & = \sum^{n-1}_{1}\cos{\frac{2\pi ks}{n}} \left( \sin{\frac{s\pi}{n}}\right)^{-1} \\
+    U_{k} & = \sum^{n-1}_{1}\sin{\frac{2\pi ks}{n}} \left( \dfrac{\cos{\dfrac{s\pi}{n}}}{\sin^{2}{\dfrac{s\pi}{n}}}\right)
+\end{align*}
+$$
+which gives
+$$
+\begin{matrix}
+    L_{k} (S_{k}+T_{k}) \dfrac{e^{2}}{8a^{3}} & N_{k} = (2T_{k} - S_{k}) \dfrac{e^{2}}{8a^{3}} \\
+    M_{k} = U_{k} \dfrac{e^{2}}{8a^{3}} & P_{k} = T_{k} \dfrac{e^{2}}{8a^{3}}
+\end{matrix}
+$$
+This can be then used, in the paper, to solve for case of two corpuscles, i.e. $n=2$ up to $n=6$. Interestingly, the model predicts instability at $n\geq 7$ and so on, particularly requiring stability analysis of sort. Indeed, "for a single corpuscle in the centre is sufficient to make rings of 7 and 8 corpuscles stable", thence given such, there exists an extreme minimal on which a single electron repulse and operate on the dual purpose - both being electronic configuration of the system, both providing repulsive stabilisation force. When the number of corpuscles exceeds 8, however, "the number of central corpuscles required to ensure stability *increases very rapidly* with the number of corpuscles in the ring". The frequency equation, that is, 
+$$
+\left(\frac{3 e^{2} S_{0}}{4 a^{3}}+ \frac{3 p e^{2}}{a^{3}}- \left(L_{0} - L_{k}\right)- m q^{2}\right)\left(N_{0} - N_{k} - m q^{2}\right)=\left(M_{k} - 2 m \omega q\right)^{2}.
+$$
+gives the least condition, that is, 
+$$
+\frac{3pe^{2}}{a^{3}} > (L_{0}-L_{n/2}) - \frac{3}{4} \frac{e^{2}S_{0}}{a^{3}}, \quad \frac{3pe^{2}}{a^{3}} > (L_{0}-L_{(n-1)/2}) - \frac{3}{4} \frac{e^{2}S_{0}}{a^{3}}
+$$
+Here, $p$ is the number of stabilization electrons, or as stated of the paper, **internal corpuscles**. Indeed, within such, we can see the pattern as shown in the calculation of Thomson:
+![The number of internal corpuscles needed to stabilize the ring corpuscles. Taken from Thomson's paper.](img/stabilisation_electron.png)
 
 #### Electronic stability - Larmor energy drain
 
@@ -409,5 +483,18 @@ for here $c$ denotes the velocity of light. For most electronic configuration wi
 $$
 \left( \frac{dE}{dt} \right)_{n} = \frac{2ce^2 \beta^{2n+2}}{a^{2}} \frac{(n+1)n^{2n+3}}{(2n+1)!}
 $$
-where $\beta=v/c$ was assumed to be small. In his original paper on the topic, derivation for stability states of $n=6$ was made, but a ring of 7-8 corpuscle can also be obtained per generality. it is also from here we come to the true shape of how electron are configured, not just a single ring, but multiple, coming from top to bottom and together form a cloud, which, ironically, is similar to current modern physics. The frequency equation that he used to solve on stability condition for seven or eight corpuscles, comes off as
+where $\beta=v/c$ was assumed to be small. However, the issue is much more deliberate, moreso as to be serious in its form. In his original paper on the topic, derivation for stability states of $n=6$ was made, but a ring of 7-8 corpuscle can also be obtained per generality. it is also from here we come to the true shape of how electron are configured, not just a single ring, but multiple, coming from top to bottom and together form a cloud, which, ironically, is similar to current modern physics. The frequency equation that he used to solve on stability condition for seven or eight corpuscles, comes off as (recited from above)
+$$
+\left(\frac{3 e^{2} S_{0}}{4 a^{3}}+ \frac{3 p e^{2}}{a^{3}}- \left(L_{0} - L_{k}\right)- m q^{2}\right)\left(N_{0} - N_{k} - m q^{2}\right)=\left(M_{k} - 2 m \omega q\right)^{2}.
+$$
+For the condition equal, the meaning of such equation inferred into the normal framework is basically a *frequency normal-mode* equation for small oscillation of $n$ electron, under configuration of multi-layering ring inside the usual 'fluid' uniform positive sphere. This equation basically fell out when he wants to seriously do **perturbation analysis** of the system as one. 
+
+
+
+
+
+
+
+
+
 
