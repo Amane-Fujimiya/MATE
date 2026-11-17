@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.24">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>3&nbsp; The map of material science – Material Science Laboratory Documentation</title>
+<title>3&nbsp; The map of material science – Material Science Documentation</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -59,7 +62,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
-  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -89,19 +91,18 @@ div.csl-indent {
 <link href="../../Figures/favicon.ico" rel="icon">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-16365895d012c6821ad2015e20b8b579.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-16365895d012c6821ad2015e20b8b579.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-16365895d012c6821ad2015e20b8b579.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-be5d01a035611e5caa05065215894e97.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-0ef14ab1bd9b01543e0f27530284b958.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-be5d01a035611e5caa05065215894e97.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-e0b2c75c7922e1cc65eed11538e587df.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-3d93a78826c91230c2a3e82fa619773e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-e0b2c75c7922e1cc65eed11538e587df.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-bf4e593068bd9ca07a4d32c51b0ba6f3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-c911523ab3c2d08f314f5690ccd08cb3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-bf4e593068bd9ca07a4d32c51b0ba6f3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -135,7 +136,7 @@ div.csl-indent {
 <style>html{ scroll-behavior: smooth; }</style>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -309,7 +310,8 @@ window.Quarto = {
       }
     };
     const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
       document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
       document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
     let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
@@ -322,6 +324,14 @@ window.Quarto = {
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
       window.dispatchEvent(new Event('resize'));
     };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
     // Switch to dark mode if need be
     if (hasAlternateSentinel()) {
       toggleColorMode(true);
@@ -350,11 +360,9 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
-      <a href="../../index.html" class="sidebar-logo-link">
-      </a>
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="../../">Material Science Laboratory Documentation</a> 
+      <a href="../../">Material Science Documentation</a> 
         <div class="sidebar-tools-main">
     <a href="https://github.com/tree/main/book/" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
@@ -438,8 +446,8 @@ window.Quarto = {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="1">
+    <h2 id="toc-title">On this page</h2>
    
   <ul>
   <li><a href="#pre-material-science" id="toc-pre-material-science" class="nav-link active" data-scroll-target="#pre-material-science"><span class="header-section-number">3.1</span> Pre-material science</a>
@@ -492,8 +500,8 @@ window.Quarto = {
 <p>Up to another region of time, or so we speak of, Thales of Miletus regarded water as sole fundamental building block of matter, and thus henceforth also material itself. He held that water, in taking different forms, constitutes the earth, atmosphere, sky, mountains, gods and men, beasts and birds, grass and trees, and animals down to worms, flies and ants. All these are different forms of water, and for certainty many of such different qualities inside many matter or materials, would be derivation simply by manipulating water, of which is the ability we do not possess of the time (yet).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="img/plumbing_thales.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="I cannot find a picture about the water theory in historical records of illustration, so make due with sewerage and drainage systems: (a) Minoan (photo: A.N. Angelakis) and (b) Indus Valley figure, then. Taken from [@w14193149]."><img src="img/plumbing_thales.png" class="img-fluid figure-img" alt="I cannot find a picture about the water theory in historical records of illustration, so make due with sewerage and drainage systems: (a) Minoan (photo: A.N. Angelakis) and (b) Indus Valley figure, then. Taken from (Angelakis, Krasilnikoff, and Tzanakakis 2022)."></a></p>
-<figcaption>I cannot find a picture about the <strong>water theory</strong> in historical records of illustration, so make due with sewerage and drainage systems: (a) Minoan (photo: A.N. Angelakis) and (b) Indus Valley figure, then. Taken from <span class="citation" data-cites="w14193149">(<a href="../../bibliography.html#ref-w14193149" role="doc-biblioref">Angelakis, Krasilnikoff, and Tzanakakis 2022</a>)</span>.</figcaption>
+<p><a href="img/plumbing_thales.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="I cannot find a picture about the water theory in historical records of illustration, so make due with sewerage and drainage systems: (a) Minoan (photo: A.N. Angelakis) and (b) Indus Valley figure, then. Taken from [@w14193149]."><img src="img/plumbing_thales.png" class="img-fluid figure-img" alt="I cannot find a picture about the water theory in historical records of illustration, so make due with sewerage and drainage systems: (a) Minoan (photo: A.N. Angelakis) and (b) Indus Valley figure, then. Taken from (Angelakis et al. 2022)."></a></p>
+<figcaption>I cannot find a picture about the <strong>water theory</strong> in historical records of illustration, so make due with sewerage and drainage systems: (a) Minoan (photo: A.N. Angelakis) and (b) Indus Valley figure, then. Taken from <span class="citation" data-cites="w14193149">(<a href="../../bibliography.html#ref-w14193149" role="doc-biblioref">Angelakis et al. 2022</a>)</span>.</figcaption>
 </figure>
 </div>
 <p>This constitutes the second action, the <strong>action of fundamentalizing derivation</strong>. Basically speaking, this requires the think that there exists, out of all set <span class="math inline">\(\{\mathrm{Ma},\mathrm{Me}\}\)</span> for material and matter of arbitrary choice on classification notion (where we can still take the anthropological definition for material), to have certain <em>initial form</em> that would make up literally everything else in existence, just with more details or more complex types. That is, the <em>minimal framework</em> itself. It is understandable how Thales would have thought of such - consider water, a <em>fluid</em> as we know of now, where shape can be transformed, the basis of life and what human (anthropological basis, mind you) cannot live without, the solvent of many processes, medium for many mechanical or proto-chemical purposes. All of such constitutes to the big picture of that water is fundamental, and we cannot really fail that to a given degree of sort.</p>
@@ -537,8 +545,8 @@ window.Quarto = {
 <li>Another tension, which have been there for a long time now, is the naturalness of the relationship between form and matter. Is the form just accidentally related to the matter, or it is essentially related to it? Can we remove it or replace it and the ‘matter’ afterward still be legitimate? The system and its frame are simply too big and too generalized, that it fails even its own test. The same structure even appears in modern materials science. The question of whether form is essential or accidental to matter is precisely the question of whether a material is defined by its composition or by its processing history. Carbon can be graphite or diamond, same matter different form, where the form is not merely accidental, but neither is the form essential to the carbon in the sense that carbon must take one form rather than another. Carbon materials can be just carbon materials, with its orientation changed, and nothing would break. Aside from the diamond.</li>
 </ol>
 <p>To pull this out apart, we might as well turn our attention to the <strong>Scientific Revolution</strong>, and the subsequent <strong>Industrial-Chemical Revolutions</strong> for their insights. But let us summarize what have been observed of the all three failures, and possibly more if one wants to look enough to the picture.</p>
-<section id="peaking---the-medieval-elaboration" class="level4" data-number="3.1.1.1">
-<h4 data-number="3.1.1.1" class="anchored" data-anchor-id="peaking---the-medieval-elaboration"><span class="header-section-number">3.1.1.1</span> Peaking - The Medieval Elaboration</h4>
+<section id="peaking---the-medieval-elaboration" class="level4">
+<h4 class="anchored" data-anchor-id="peaking---the-medieval-elaboration">Peaking - The Medieval Elaboration</h4>
 <p>Of the long-time of the Medieval period, scholasticism inherited of Aristotle through Arabic translation, primary through Avicenna and Averroes, elaborated hylomorphism into an intricate theological and metaphysical system. Those using the concept frequently distinguished between substantial form and accidental form, if one can even distinguish such from the description that is poorly operated of. For Thomas Aquinas, he argued that everything in the natural world is created by God and has specific purpose, which is revealed though both divine revelation, or natural philosophy. Such is rather characteristic of the Christian thought centred around which there are god to be, but also to set a baseline that would be rather biased, as far as we know of the present - it presupposes the purpose as already defined, of what claimed to be relational. Which is, in certain form, contradiction of sort.</p>
 <p>Nothing much can be said about this part more than this, unfortunately. The distinguishment scheme is rather deliberate but flawed, for example,</p>
 <blockquote class="blockquote">
@@ -579,7 +587,7 @@ window.Quarto = {
 <p>Antoine-Laurent Lavoisier, the most prominent antiphlogistonist, believed that calcination produced a weight gain in metals because something in the air combined with the metal. He repeated the experiments of Priestley, interpreting the change in the lead calx as the loss of a gas into the air. This explanation solved the problem of weight gain experienced by metals when calcinated: Lavoisier reasoned that the same gas that a calcinated metal released had bonded to it when it was originally calcinated, and the weight of the gas had been added to the weight of the pure metal at that time. Lavoisier named this new gas “oxygen.” Although Lavoisier was never able to dissuade Priestley from believing in phlogiston, he did convince most other chemists of his day that the theory needed to be discarded. <a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></p>
 </blockquote><div class="no-row-height column-margin column-container"><div id="fn4"><p><sup>4</sup>&nbsp;Even then, we can see that not even Lavoisier can convince the phlogistonists such as Priestley himself. His experiment is rather sound, however despite popular beliefs and what to be considered of the narrative refutation. In one, he heated some calx of lead (mercuric oxide) in a closed container and found that the air released by the calx caused a candle to burn more vigorously and that a mouse placed in the container could breathe longer than when placed in normal air. Priestley called the air inside the container “dephlogisticated air”: He assumed that, by heating lead calx, he had removed phlogiston from normal air and caused it to be reabsorbed by the calx. In fact, rather than removing something from the air, Priestley had added to it when the heated mercuric oxide gave off <strong>oxygen</strong>. Without the knowledge nor the realization of the breaking case, one would have to see that the evidences inside, suggested phlogiston to be rather right.</p></div></div></div>
 <p>The ontological baseline now shifted, where phlogiston is actually the <em>substance air</em> of which combine to give the effect a stable cause. The question again shifted toward, what is even air? How would air combines with the matter of metal to produce combustion? The layer is now clarified quite a bit, as for there must be <em>something smaller</em> that make up both the metal, and both the air, for them to interact and give rise to residue, albeit of the same mass for both as it is. It is also a rather early entry to the concept of entropy and energy transformation - if we are to have same mass, accumulated throughout air giving in to give rise to rust and so on, then during the process of burning, we lose the torch and of the fire soon fade. Then, what is transformed, and what was lost during that process? Such question would be answered later, or rather not, as the body of science already gave its way toward it, and we should not reinvent nor reinterpreting it, lest of the space available in the discourse such is this small section. That said, we now have the <em>conservation law of Mass</em>, where now mass of constituent, actually can be traced to specific interaction partners of the process, not merely attribute more to what there exists. Such is also again, a problem of which still surfaces as of the modern context - <em>how do you characterize materials good enough to get that distinction</em>, and should that be answered, many would be elucidated of the process. For now, the revolution points itself to the quality of which that can be <em>qualified</em>, for the first time in many decades of works.</p>
-<p>Let us end the section by taking on the implications thereof for this linage of itself, and of the chemical revolution in its entirety. Namely, the technological ‘marvel’ thereof. For what to be seen from <span class="citation" data-cites="acs_lavoisier_landmark">(<a href="../../bibliography.html#ref-acs_lavoisier_landmark" role="doc-biblioref">American Chemical Society (ACS) n.d.</a>)</span>, <span class="citation" data-cites="acs_priestley_landmark">(<a href="../../bibliography.html#ref-acs_priestley_landmark" role="doc-biblioref">American Chemical Society (ACS) n.d.b</a>)</span>, <span class="citation" data-cites="flavell-while2011_leblanc">(<a href="../../bibliography.html#ref-flavell-while2011_leblanc" role="doc-biblioref">Flavell-While 2011</a>)</span>, <span class="citation" data-cites="roebuck_lead_chamber_1746">(<a href="../../bibliography.html#ref-roebuck_lead_chamber_1746" role="doc-biblioref">Roebuck n.d. / c. 1746</a>)</span>, <span class="citation" data-cites="britannica_arkwright">(<a href="../../bibliography.html#ref-britannica_arkwright" role="doc-biblioref">Encyclopaedia Britannica Editors n.d.d</a>)</span>, <span class="citation" data-cites="britannica_hargreaves">(<a href="../../bibliography.html#ref-britannica_hargreaves" role="doc-biblioref">Encyclopaedia Britannica Editors n.d.b</a>)</span>, <span class="citation" data-cites="britannica_cartwright">(<a href="../../bibliography.html#ref-britannica_cartwright" role="doc-biblioref">Encyclopaedia Britannica Editors n.d.a</a>)</span>, and of <span class="citation" data-cites="britannica_wilkinson">(<a href="../../bibliography.html#ref-britannica_wilkinson" role="doc-biblioref">Encyclopaedia Britannica Editors n.d.c</a>)</span> for what history preserved of intentions and records, the Chemical Revolution indeed made the depth of how materials were to be defined, albeit with the same constraints we set above.</p>
+<p>Let us end the section by taking on the implications thereof for this linage of itself, and of the chemical revolution in its entirety. Namely, the technological ‘marvel’ thereof. For what to be seen from <span class="citation" data-cites="acs_lavoisier_landmark">(<a href="../../bibliography.html#ref-acs_lavoisier_landmark" role="doc-biblioref">American Chemical Society (ACS) n.d.a</a>)</span>, <span class="citation" data-cites="acs_priestley_landmark">(<a href="../../bibliography.html#ref-acs_priestley_landmark" role="doc-biblioref">American Chemical Society (ACS), n.d.-b</a>)</span>, <span class="citation" data-cites="flavell-while2011_leblanc">(<a href="../../bibliography.html#ref-flavell-while2011_leblanc" role="doc-biblioref">Flavell-While 2011</a>)</span>, <span class="citation" data-cites="roebuck_lead_chamber_1746">(<a href="../../bibliography.html#ref-roebuck_lead_chamber_1746" role="doc-biblioref">Roebuck n.d. / c. 1746</a>)</span>, <span class="citation" data-cites="britannica_arkwright">(<a href="../../bibliography.html#ref-britannica_arkwright" role="doc-biblioref">Encyclopaedia Britannica Editors, n.d.-d</a>)</span>, <span class="citation" data-cites="britannica_hargreaves">(<a href="../../bibliography.html#ref-britannica_hargreaves" role="doc-biblioref">Encyclopaedia Britannica Editors, n.d.-b</a>)</span>, <span class="citation" data-cites="britannica_cartwright">(<a href="../../bibliography.html#ref-britannica_cartwright" role="doc-biblioref">Encyclopaedia Britannica Editors, n.d.-a</a>)</span>, and of <span class="citation" data-cites="britannica_wilkinson">(<a href="../../bibliography.html#ref-britannica_wilkinson" role="doc-biblioref">Encyclopaedia Britannica Editors, n.d.-c</a>)</span> for what history preserved of intentions and records, the Chemical Revolution indeed made the depth of how materials were to be defined, albeit with the same constraints we set above.</p>
 <div class="page-columns page-full"><blockquote class="blockquote">
 <p>Klein &amp; Lefèvre show that 18th-century chemists developed a new ontology of substances: they identified and categorized “pure chemical substances” by composition. For example, air was re-ontologized into oxygen, nitrogen, etc. Traditional “affinity tables” of the pre-1789 era (organizing <em>substances</em> by <em>reaction affinities</em>) gave way to Lavoisier’s Tableau de nomenclature chimique (1787), classifying substances by <strong>elemental makeup</strong><a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>.</p>
 </blockquote><div class="no-row-height column-margin column-container"><div id="fn5"><p><sup>5</sup>&nbsp;Again, we note the lower-level commitment here as non-trivial. It will recur in later organization.</p></div></div></div>
@@ -643,8 +651,8 @@ window.Quarto = {
 <li>The spacing between solid-solid, liquid-liquid and gas-gas particles is close to 1:1:10 (Andersson, 1990; de Vos and Verdonk, 1996).</li>
 </ol>
 <p>Many years apart, the story often presented in the corpus of chemical science would be of the atomic theory since Dalton, and the current <strong>molecular kinetic theory</strong>, though much more antique in consideration against quantum chemistry, are actually closer than what we thought. The current molecular story only imported the higher resolution of the consequence of Dalton’s - such is where atoms would be still, the driving force, and their behaviours are explainable in the sense of which their connections, topology, reactions are derivable with precision of the rulesets to follow along, and it should always be that way. Or not, as we would find out. But for now, let us take apart each of them, one by one.</p>
-<section id="the-form-of-daltons" class="level4" data-number="3.2.1.1">
-<h4 data-number="3.2.1.1" class="anchored" data-anchor-id="the-form-of-daltons"><span class="header-section-number">3.2.1.1</span> The form of Dalton’s</h4>
+<section id="the-form-of-daltons" class="level4">
+<h4 class="anchored" data-anchor-id="the-form-of-daltons">The form of Dalton’s</h4>
 <p>Suppose matter/material collapse into a singular topic of discussion about its origin. Then, The atomic model indicts that matter <span class="math inline">\(M\)</span> has the composition from <span class="math inline">\(N(k)\)</span>, for <span class="math inline">\(N\in\mathcal{N}\)</span> of the atomic species, i.e.&nbsp;the distinct set of <em>elements</em> altogether, <span class="math inline">\(k\)</span> denoting the simple cardinality as a whole. Then, we posit that certain element of <span class="math inline">\(N_{1}\)</span> and <span class="math inline">\(N_{2}\)</span> are equal only if the <strong>properties</strong> attached to them are of the same quantitative evaluation, we call this <span class="math inline">\(\{p\}\)</span>. The first advantage of Dalton’s theory is that we can settle on the similarity up to a certain point, based on <em>empirical observation</em> of standardized quantity. The size, up to certain fixture of propositional evaluation, also is rather easier of the intuition. We can say that iron are much bigger/smaller than oxygen atom, to a given sense, and such would be verified by local experience alone, and would not need much explanation thereof - you can feel the bulk of iron, but not so much of oxygen, that is. Chemical reaction happens when sufficient condition are there to mix between <span class="math inline">\(N_{1}+N_{2}\)</span>. Now, the key point of Dalton is that <span class="math display">\[
 \frac{k_{1}}{k_{2}} = c\in \mathbb{Q}
 \]</span> of all whole number, for <span class="math inline">\(k_{1}\)</span> the units of element of <span class="math inline">\(N_{1}\)</span>, and so on for <span class="math inline">\(k_{2}\)</span>. Discrete combinatorial units of each element in a stable structure, is the kinematic of interaction that they would be able to occur of. Thence, for a set of <span class="math inline">\(m\)</span> chemical compounds, the following applies for all chemical reaction, <span class="math display">\[
@@ -692,20 +700,20 @@ S = m+M \approx (K+1)^{m}, \quad S^{2} \sim (K+1)^{2m}
 <section id="cracking-the-barriers" class="level3" data-number="3.2.2">
 <h3 data-number="3.2.2" class="anchored" data-anchor-id="cracking-the-barriers"><span class="header-section-number">3.2.2</span> Cracking the barriers</h3>
 <p>The 89 years of which will follow to Dalton from Thomson (the pudding) is very structurally interesting, and it underlies the current landscape itself of what there are of the tension between theoretical notions, and the practical layering that makes up the bulk of it. Analytically speaking, it is the sequence of four distinct crises, each of which put pressure on the Daltonian framework from a different question, systematically revealing that the postulates are hiding something underneath, for example, the atomic specificity of non-destruction. Each of which the framework would survive by deferral rather than resolution, which cumulatively being the weakening effect of the programme. Often, we jumped simply from Dalton to Thomson without much thought about what constitutes in between, though history would be said otherwise - the surprise is not without warning, but the resolution of a tension that had been building for nearly a century, and of which, all without impulse, led to Rutherford’s.</p>
-<section id="prouts-hypothesis-and-the-atomic-weight-problem-18151860s" class="level4" data-number="3.2.2.1">
-<h4 data-number="3.2.2.1" class="anchored" data-anchor-id="prouts-hypothesis-and-the-atomic-weight-problem-18151860s"><span class="header-section-number">3.2.2.1</span> Prout’s hypothesis and the atomic weight problem (1815–1860s)</h4>
+<section id="prouts-hypothesis-and-the-atomic-weight-problem-18151860s" class="level4">
+<h4 class="anchored" data-anchor-id="prouts-hypothesis-and-the-atomic-weight-problem-18151860s">Prout’s hypothesis and the atomic weight problem (1815–1860s)</h4>
 <p>Approximately seven years after Dalton, William Prout published paper sin 1815 and 1816 observing that the atomic weights of the known elements appeared to be whole multiples of the atomic weight of hydrogen, hypothesizing that the hydrogen atom was the only true fundamental object and that atoms of other element were the grouping of hydrogen atoms. The <em>prime matter</em> now returned with the flawed model of such, as we found out, but now supported by <em>empirical patterns</em> that would seem to say validate the experiment and hypothesis. But so are many prime matter theory coming before it on itself. Nevertheless, it can be regarded as the prime matter crack of the lower-level concern for the Daltonian framework. Prout is asking Act IV, internally within Dalton’s own frameworks. Specifically speaking, Dalton presupposed the atomic species. However, Prout hypothesized that it is not indeed the atomic species but simply different variations of the hydrogen atoms that made up the world on and by itself, thus the model of atomic structure is instead hydrogen-base, atomically composite of hydrogen atoms instead.</p>
 <p>The action itself is not wrong. Indeed, when we consider the hydrogen atom, it can be said to be the simplest ever atom observed of the physical reality with its configurations. Implicitly, the Daltonian framework does not reject Prout’s hypothesis, but simply just giving a <em>justification of compositions</em> for where all the atomic differentiation between different atomic species are from, in the form being the answer as <em>modularity</em>, where the simplest structure helps itself to create a newer theory.</p>
-<p>Let us deploy the hypothesis. Suppose that we have the set of <span class="math inline">\(\mathcal{N}\equiv\{N\}\)</span> chemical elements. Then, Daltonian framework says that they differ three fundamental categories. First, mass <span class="math inline">\(m\)</span>, second, size <span class="math inline">\(v\)</span> if we are to speak of volumetric adherence, and third, <span class="math inline">\(p_{1},...,p_{n}\)</span> of certain other properties. Because of the aforementioned compound problem, we suppose the properties list would be <em>complexity-dependent</em> that would emerge inconsistently and fundamentally plural given its circumstances and setup of the empirical usages. Then, we focus on <span class="math inline">\(m\)</span> and <span class="math inline">\(v\)</span>. Because <span class="math inline">\(v\)</span> as we now know, is approximately small on the order of <span class="math inline">\(\mu m\)</span>, my Daltonian scale, they can be said to approximately negligible as the choice of comparison. Then, the question remains would be to distinguish one singular element from another. This pushes the question to the <strong>atom</strong> itself as to ask <em>what is the atom</em>? More specifically, can there be existence of the <em>simplest possible atom</em> that would explain for how it was formed? That is Prout’s direction. The other direction would be the <em>anti-modularity formalists</em> in the sense of non-collapse into atom composition, but to say that in general, the atoms differ like balloon - some can be big, some can be small, but they are <em>configured that way</em> and of the same <em>concentration</em> mechanics. This foregrounds the extrapolation outside the framework, implicitly, but internally of Daltonian framework, such allows for saying of the special element <span class="math inline">\(N\)</span> from <span class="math inline">\(M\)</span>, thus validates Daltonian than being extracted of the implication. Daltonian modularity search comes with a problem. How do you presuppose the singular atom? There are many choices for that. For example, <span class="math inline">\(\mathrm{He}\)</span> for helium is with currently specified atomic mass to be around <span class="math inline">\(4.002602\)</span>. By the time of Daltonian precision, that equates to simply <span class="math inline">\(4\)</span>. Oxygen is <span class="math inline">\(15.9994\)</span>, approximately still to be <span class="math inline">\(16\)</span>. Then, indeed, we can say that helium constitutes oxygen. Which is weird, because Helium cannot form Nitrogen or Boron because of the whole number requirement. Lithium (for <span class="math inline">\(\mathrm{Li}\)</span> to be <span class="math inline">\(\sim 6.941\)</span>) would be close to forming Neon, as <span class="math inline">\(\mathrm{Ne}\sim 20.1797\)</span>. The pattern is inconsistent, but it is rather clear from experiments, they are non-trivially large. The only candidate that would be feasible under such thinking of such, without asking the blocked move of what is even the atom, would be to take <em>hydrogen</em>, which is of approximately <span class="math inline">\(1.00794\)</span> atomic mass. The number is almost too nice, and for the precision of the time, such can be said to simple one. That is where Prout was, and how the conjecture was formed. Surprisingly however, the issue is self-referential, using its own assumptions to immunize itself against the question those assumptions generated, of which would be seen in its response against Prout.</p>
+<p>Let us deploy the hypothesis. Suppose that we have the set of <span class="math inline">\(\mathcal{N}\equiv\{N\}\)</span> chemical elements. Then, Daltonian framework says that they differ three fundamental categories. First, mass <span class="math inline">\(m\)</span>, second, size <span class="math inline">\(v\)</span> if we are to speak of volumetric adherence, and third, <span class="math inline">\(p_{1},...,p_{n}\)</span> of certain other properties. Because of the aforementioned compound problem, we suppose the properties list would be <em>complexity-dependent</em> that would emerge inconsistently and fundamentally plural given its circumstances and setup of the empirical usages. Then, we focus on <span class="math inline">\(m\)</span> and <span class="math inline">\(v\)</span>. Because <span class="math inline">\(v\)</span> as we now know, is approximately small on the order of <span class="math inline">\(\mu m\)</span>, by Daltonian scale, they can be said to approximately negligible as the choice of comparison. Then, the question remains would be to distinguish one singular element from another. This pushes the question to the <strong>atom</strong> itself as to ask <em>what is the atom</em>? More specifically, can there be existence of the <em>simplest possible atom</em> that would explain for how it was formed? That is Prout’s direction. The other direction would be the <em>anti-modularity formalists</em> in the sense of non-collapse into atom composition, but to say that in general, the atoms differ like balloon - some can be big, some can be small, but they are <em>configured that way</em> and of the same <em>concentration</em> mechanics. This foregrounds the extrapolation outside the framework, implicitly, but internally of Daltonian framework, such allows for saying of the special element <span class="math inline">\(N\)</span> from <span class="math inline">\(M\)</span>, thus validates Daltonian than being extracted of the implication. Daltonian modularity search comes with a problem. How do you presuppose the singular atom? There are many choices for that. For example, <span class="math inline">\(\mathrm{He}\)</span> for helium is with currently specified atomic mass to be around <span class="math inline">\(4.002602\)</span>. By the time of Daltonian precision, that equates to simply <span class="math inline">\(4\)</span>. Oxygen is <span class="math inline">\(15.9994\)</span>, approximately still to be <span class="math inline">\(16\)</span>. Then, indeed, we can say that helium constitutes oxygen. Which is weird, because Helium cannot form Nitrogen or Boron because of the whole number requirement. Lithium (for <span class="math inline">\(\mathrm{Li}\)</span> to be <span class="math inline">\(\sim 6.941\)</span>) would be close to forming Neon, as <span class="math inline">\(\mathrm{Ne}\sim 20.1797\)</span>. The pattern is inconsistent, but it is rather clear from experiments, they are non-trivially large. The only candidate that would be feasible under such thinking of such, without asking the blocked move of what is even the atom, would be to take <em>hydrogen</em>, which is of approximately <span class="math inline">\(1.00794\)</span> atomic mass. The number is almost too nice, and for the precision of the time, such can be said to simple one. That is where Prout was, and how the conjecture was formed. Surprisingly however, the issue is self-referential, using its own assumptions to immunize itself against the question those assumptions generated, of which would be seen in its response against Prout.</p>
 <p>The Daltonian framework, by then, responded by rejecting Prout empirically. A series of more careful measurements of the atomic weights, compiled by Berzelius in 1828 and Turner in 1832, disproved quite so of the hypothesis - in particular of the atomic weight of chlorine, the proportion is <span class="math inline">\(35.45\)</span> instead, which is not whole number as said. In fact, Berzelius, the foremost analytical chemist that compiled such, said in his work to be:</p>
 <blockquote class="blockquote">
 <p>This work belongs to those few productions from which science will derive no advantage whatever […] The greatest civility which his contemporaries can show the author, is to forget that it was ever published.</p>
 </blockquote>
 <p>Ironically, however, the result of being <span class="math inline">\(35.45\)</span> times that of Hydrogen worked against his favour, of which would be our current atomic model of current time. Suppose that the process we have contains a chemical reaction, specifically, between chlorine, oxygen, and hydrogen. Then, it is true that oxygen and hydrogen satisfies the trivial <span class="math inline">\(k/p\)</span>-ratio requirement of chemical operation. However, this means that chlorine would not. Hence, the ordering matter, which means that same compositional chemistry, different history, different impossibility result. Furthermore, if oxygen and hydrogen reaction under certain specificity produces <span class="math inline">\(\mathrm{H_{2}O}\)</span>, in which dilute and <em>react</em> with chlorine to form hypochlorous acid and hydrochloric acid, then it means that the dissemination of resolution increases - the reactant must include a sub-process, and why such exists is not known. Moreover, as we know of current form, chlorine reacts vigorously with hydrogen to produce hydrogen chloride gas. This means this direct argument glossed over the inconsistency in favour of conservatism that would expand the crack in another place rather than close it - we missed an entire process, and how the process works would not be known exactly. In a sense, Berzelius invited himself to a Turkey shoot of Dalton’s leg.</p>
-<p>In the end, Prout’s question was not answered. It was suppressed by more precise atomic weight measurements that appeared to refute it, but unknowingly, also widen the cracks. Furthermore, the discovery of <em>isotope</em> in much later covered this in much specificity - if the condition of neutron composition is good enough and calculated enough, no matter stability, then <strong>any</strong> element is able to be the baseline hydrogen is. Thus, bring us back to Act II, and the dissemination problem - what is even the <em>prime matter</em>?</p>
+<p>In the end, Prout’s question was not answered. It was suppressed by more precise atomic weight measurements that appeared to refute it, but unknowingly, also widen the cracks. Furthermore, the discovery of <em>isotope</em> in much later covered this in much specificity - if the condition of neutron composition is good enough and calculated enough, no matter stability, then <strong>any</strong> element is able to be the baseline hydrogen is. Thus, brings us back to Act II, and the dissemination problem - what is even the <em>prime matter</em>?</p>
 </section>
-<section id="the-anti-atomist-movement-and-positivist-challenge-1840s-1890s" class="level4" data-number="3.2.2.2">
-<h4 data-number="3.2.2.2" class="anchored" data-anchor-id="the-anti-atomist-movement-and-positivist-challenge-1840s-1890s"><span class="header-section-number">3.2.2.2</span> The anti-atomist movement, and positivist challenge (1840s-1890s)</h4>
+<section id="the-anti-atomist-movement-and-positivist-challenge-1840s-1890s" class="level4">
+<h4 class="anchored" data-anchor-id="the-anti-atomist-movement-and-positivist-challenge-1840s-1890s">The anti-atomist movement, and positivist challenge (1840s-1890s)</h4>
 <p>The second crisis is rather philosophical, much less relevant to the game of theoretical-empirical pushback, but much more interesting per perspectives. And best of such, it is relevant to the failure modes often reside in the formation process itself.</p>
 <p>Figures of such crisis, Ernst Mach and Wilhelm Ostwald, were philosophically opposed to hypotheses about reality altogether, in which the picture of physics seems inadequate of their perception. Specifically, only energy as part of thermodynamics should be the basis of physical models, and of which often would be enough for all dynamical interactive theory on compositions itself. Such is often called <em>energeticists</em> as a sub-category in all and of all, and it would be to their intended effect.</p>
 <blockquote class="blockquote">
@@ -721,19 +729,19 @@ S = m+M \approx (K+1)^{m}, \quad S^{2} \sim (K+1)^{2m}
 </blockquote>
 <p>All of which would be rather functionally enough, as said in the anti-atomist dispute. But, implicitly, Daltonian analysis above nullified quite much the border where the theory would fail, and such to say that it connects to an interesting phenomenon: where it is observed in even contemporary chemical theory, a given law is often not so much effective without the myriad of worse-case situations, and failure points that require another <em>proliferated special law</em>, branched as such, but perform again pattern matching dressed in formalized axiomatization works. Ironically, it is the chemist that suffered from this the most, as their textbooks are getting bigger every year to accommodate more and more special law of certain regions of interest. We do not need to say much about the rest of them, aside from the closure. The anti-atomist position was only decisively defeated by Perrin’s measurements of Brownian motion (1908), which gave a direct determination of Avogadro’s number consistent with kinetic theory - and by Thomson’s electron, which demonstrated that if atoms were not real, something was coming out of them. However, we are still in the 19th. There are a few more crises.</p>
 </section>
-<section id="the-cathode-ray-debate-and-particle-waves-duality-1870s-1897" class="level4" data-number="3.2.2.3">
-<h4 data-number="3.2.2.3" class="anchored" data-anchor-id="the-cathode-ray-debate-and-particle-waves-duality-1870s-1897"><span class="header-section-number">3.2.2.3</span> The cathode ray debate and particle-waves duality (1870s-1897)</h4>
+<section id="the-cathode-ray-debate-and-particle-waves-duality-1870s-1897" class="level4">
+<h4 class="anchored" data-anchor-id="the-cathode-ray-debate-and-particle-waves-duality-1870s-1897">The cathode ray debate and particle-waves duality (1870s-1897)</h4>
 <p>While people would love to think about particle of waves, in the sense of optical physics and the old Newton-Huygens debate, the tortuous part of the path to Thomson, Rutherford and the pudding model is actually the <em>cathode ray tube experiment</em>. The typical story is rather not exposed enough, while simple, marks a rather long historical debate of sort. Cathode effect is not an obscure anomaly, due history: in fact, its earliest discovery was often attributed to Faraday. In 1838, Faraday observed what was called the <strong>Faraday’s dark space</strong>, a dark region in a glow discharge near the negative electrode. The experiment is rather simple - passed a current through a rarefied air-filled glass tube and noticed a strange light arc with its beginning at the cathode (negative electrode) and its end almost at the anode (positive electrode), of which gives the dark space in apparent observations. Further then, per <span class="citation" data-cites="Busch2023XrayPriority">(<a href="../../bibliography.html#ref-Busch2023XrayPriority" role="doc-biblioref">Busch 2023</a>)</span> historical accounts, such cathode ray has been observed, though invisible, in experiments of early vacuum tubes when they struck the glass wall of the tube, exciting atoms of the glass and causing them to emit light. They noted that objects placed in the tube in front of the cathode could cast a shadow on the glowing wall, and realized that something must be travelling in straight lines from the cathode. Later on, during the 1870s, the same observation occurs - but this time, William Crookes did it with a more sophisticated device.</p>
 <blockquote class="blockquote">
 <p>In the 1870s, British physicist William Crookes and others were able to evacuate rarefied tubes to a pressure below 10−6 atm. These were called Crookes tubes. Faraday had been the first to notice a dark space just in front of the cathode, where there was no luminescence. This came to be called the cathode dark space, Faraday dark space, or Crookes dark space.</p>
 <p>Crookes found that as he pumped more air out of the tubes, the Faraday dark space spread down the tube from the cathode toward the anode, until the tube was totally dark. But at the anode (positive) end of the tube, the glass of the tube itself began to glow. What was happening was that as more air was pumped from the tubes, the electrons could travel farther, on average, before they struck a gas atom. By the time the tube was dark, most of the electrons could travel in straight lines from the cathode to the anode end of the tube without a collision. With no obstructions, these low mass particles were accelerated to high velocities by the voltage between the electrodes. These were the cathode rays. When they reached the anode end of the tube, they were travelling so fast that, although they were attracted to it, they often <strong>flew past the anode and struck the back wall</strong> of the tube. When they struck atoms in the glass wall, they excited their orbital electrons to higher energy levels, causing them to fluoresce.</p>
 </blockquote>
-<p>Of course, what I just gave you is the account by <span class="citation" data-cites="IntroChemNuclearAtom">(<a href="../../bibliography.html#ref-IntroChemNuclearAtom" role="doc-biblioref"><span>“Discoveries Leading to the Nuclear Atom Model”</span> n.d.</a>)</span>, of introductory chemistry where it already presupposed the existence of electron. However, one must then understand how bizarre it is under Dalton’s atomic theory that to say, pretty much enfranchising on such atom. Another figure of such time is Eilhard Wiedemann, with support or co-author of Heinrich Hertz, and Goldstein, of which believed it to be <em>aether waves</em>, new form of electromagnetic radiation, separated from what carried the electric current through the tube. While it might seem absurd now, such line of thought is particularly not surprising. There exists no concept for an electron at present - what have to do with another proliferation of the underlying system must be a form, or some kind of matter of same order that does not break the floor of which atom already determines it as. Whether it is particle, a corpuscular value that went out from the atom as its small diffusion or waves does not really matter.</p>
+<p>Of course, what I just gave you is the account by <span class="citation" data-cites="IntroChemNuclearAtom">(<a href="../../bibliography.html#ref-IntroChemNuclearAtom" role="doc-biblioref"><span>“Discoveries Leading to the Nuclear Atom Model,”</span> n.d.</a>)</span>, of introductory chemistry where it already presupposed the existence of electron. However, one must then understand how bizarre it is under Dalton’s atomic theory that to say, pretty much enfranchising on such atom. Another figure of such time is Eilhard Wiedemann, with support or co-author of Heinrich Hertz, and Goldstein, of which believed it to be <em>aether waves</em>, new form of electromagnetic radiation, separated from what carried the electric current through the tube. While it might seem absurd now, such line of thought is particularly not surprising. There exists no concept for an electron at present - what have to do with another proliferation of the underlying system must be a form, or some kind of matter of same order that does not break the floor of which atom already determines it as. Whether it is particle, a corpuscular value that went out from the atom as its small diffusion or waves does not really matter.</p>
 <p>Coming to the year of 1897, J.J. Thomson produced three seminal papers, all of which can still be grouped into what we can know of the moment as the cathode ray advancement of 1890s, from the room of the Cavendish Laboratory Cambridge. His inquiry is rather light. He set out to discover and analyze of what the cathode ray is made of, by refining the old systems by Hertz and such, first by removing <em>air resistance</em>, which deliberately gave him a stronger beam, inside such vacuum, shooting it through a positive anode with a hole in it. The dynamics of the “corpuscles”, of which he later called, does not matter much - what was then prioritized is the apparent existence of the matter itself. By using Johnstone Stoney proposal in 1978 of the existence of an electric charge carrier of uniformly large charge associated with atoms, coined electron, Thomson succeeded in providing the first experimental proof by 1897,</p>
 <blockquote class="blockquote">
 <p>“As the cathode rays carry a charge of negative electricity, are deflected by an electrostatic force as if they were negatively electrified, and are acted on by a magnetic force in just the way in which this force would act on a negatively electrified body moving along the path of these rays, I can see no escape from the conclusion that they are charges of negative electricity carried by particles of matter”</p>
 </blockquote>
-<p>The elaboration into what we know of the present as the <span class="math inline">\(e/m\)</span>-identification experiment, he found that each of the particles had the same small mass, about approximately <span class="math inline">\(1/2000\)</span> of the mass of a hydrogen, which, if we remember from what Prout was after, was once the proponent for the basis of the entire universal atomic model. Those experiments led him to at that time, far further than when such model t exist, believe that these particles were a basic constituent of matter; which influenced the decision, or rather the idea proposal of which can be said as atom, plus electron. The reason why such model <em>still retain</em> electron is also not a crude story either. When you have electron, smaller than the constituent part of which the entire periodic table was built on, you can only ask - where the electron is attached on such model? The way to imagine that, is to get them being absorbed, or stuck on the surface of what is said to be the atom, plumbing inside as part of the atom. That is where the <strong>plum pudding model</strong> was, and should be clear once we enter the Thomson atomic model.</p>
+<p>The elaboration into what we know of the present as the <span class="math inline">\(e/m\)</span>-identification experiment, he found that each of the particles had the same small mass, about approximately <span class="math inline">\(1/2000\)</span> of the mass of a hydrogen, which, if we remember from what Prout was after, was once the proponent for the basis of the entire universal atomic model. Those experiments led him to at that time, far further than when such model to exist, believed that these particles were a basic constituent of matter; which influenced the decision, or rather the idea proposal of which can be said as atom, plus electron. The reason why such model <em>still retains</em> electron is also not a crude story either. When you have electron, smaller than the constituent part of which the entire periodic table was built on, you can only ask - where the electron is attached on such model? The way to imagine that, is to get them being absorbed, or stuck on the surface of what is said to be the atom, plumbing inside as part of the atom. That is where the <strong>plum pudding model</strong> was, and should be clear once we enter the Thomson atomic model.</p>
 </section>
 </section>
 <section id="the-vortex-atom---string-theory-in-a-different-past-1860s-1890s" class="level3 page-columns page-full" data-number="3.2.3">
@@ -811,8 +819,8 @@ U(N) = \frac{1}{2} \sum^{N}_{i=1} \sum^{N}_{j\neq i} U_{C}(e_{i},e_{j}) + \frac{
 </div>
 <p>Simplification of the model was made, so that mathematically, it is mostly planar, but he was rather well aware that to obtain a more realistic model, he would have to consider the actual 3D space, which improvises the mathematical idealization of many of its unrealized frame of degree of freedoms. That said, the typical picture, including which we said and stated of above, and of which the problem on volumetric disparage, while constrained here now we have his direct treatments, is often misrepresented, and hid the genuinely phenomenal result give of such time.</p>
 <p>A critical point and failure, of which would be patched up by Thomson’s treatment, using his heuristic approach of the model, comes from the solution, or at least partially so under his framework, about <em>electrodynamic stability</em>, and <em>mechanical stability</em>. On either side, to satisfy either, he is to perform the search for conditions that would be favourable of both, so much so that they do not collapse on their own weight, which is a rather mechanical-electronical problem in dual than just one.</p>
-<section id="the-thomsons-paper---on-the-structure-of-the-atom" class="level4" data-number="3.2.4.1">
-<h4 data-number="3.2.4.1" class="anchored" data-anchor-id="the-thomsons-paper---on-the-structure-of-the-atom"><span class="header-section-number">3.2.4.1</span> The Thomson’s paper - <em>On the Structure of the Atom</em></h4>
+<section id="the-thomsons-paper---on-the-structure-of-the-atom" class="level4">
+<h4 class="anchored" data-anchor-id="the-thomsons-paper---on-the-structure-of-the-atom">The Thomson’s paper - <em>On the Structure of the Atom</em></h4>
 <p>Let us trace his paper from the start. It begins as to state of the central problem of the time - the view that “the atoms of elements consist of a number of <strong>negatively electrified</strong> (charged) corpuscles enclosed in a sphere of uniform <strong>positive electrification</strong>”, of which suggest a configuration where <span class="math inline">\(n\)</span> negatively electrified, or so <em>electron</em>, corpuscles are probed of their motions inside such system. What he was hinting at, is toward the <em>existence of particles</em>, thus posit that the configuration of the system from his knowledge and of the time, to be in equilibrium. Such is why the problem starts with equilibrium structure situation, and continue on with motions inside this equilibrium sphere. We note that under this view, none of the <span class="math inline">\(e_{n}\)</span> escapes the structure of the atom itself.</p>
 <p>For charge <span class="math inline">\(ve\)</span> of the sphere, <span class="math inline">\(b\)</span> sphere radius and <span class="math inline">\(a\)</span> radius of the corpuscle, then <span class="math display">\[
 G_{corp}= \frac{ve^{2}a}{b^{3}}, \quad G_{ij} = \frac{e^{2}}{4r_{i}^{2}\sin{(1/2)\theta_{ij}}}
@@ -861,8 +869,8 @@ S_{n}= \frac{e^{2}}{4a^{2}} \left( \csc{\frac{\pi}{n}} + \csc{\frac{2\pi}{n}} + 
 </figure>
 </div>
 </section>
-<section id="electronic-stability---larmor-energy-drain" class="level4" data-number="3.2.4.2">
-<h4 data-number="3.2.4.2" class="anchored" data-anchor-id="electronic-stability---larmor-energy-drain"><span class="header-section-number">3.2.4.2</span> Electronic stability - Larmor energy drain</h4>
+<section id="electronic-stability---larmor-energy-drain" class="level4">
+<h4 class="anchored" data-anchor-id="electronic-stability---larmor-energy-drain">Electronic stability - Larmor energy drain</h4>
 <p>Larmor in his <em>Aether and Matter</em> of the 1900, gave the energy lost by which Maxwellian electrodynamics predicted of radiation energy from accelerating (of the time, note that relativistic effect is still not quite a thing), which would leave to an atomic collapse, of charge <span class="math inline">\(e\)</span> revolving with speed <span class="math inline">\(v\)</span> on a circle of radius <span class="math inline">\(a\)</span>, as <span class="math display">\[
 \frac{dE}{dt} = \frac{2}{3} \left( \frac{e^{2}v^{4}}{ca^{2}} \right)
 \]</span> for here <span class="math inline">\(c\)</span> denotes the velocity of light. For most electronic configuration with many electrons, the effect will not be so additive. On the contrary, considering the case <span class="math inline">\(n\)</span> electron, Thomson proved that the radiation drain reduced drastically with <span class="math inline">\(n\)</span> with specific configuration, though this comes with a cost of non-uniformity in analysis. The general formulation of energy lost is given by, under <span class="math inline">\(n\)</span>-equidistantly placed configuration of electrons on a single ring, the derivation gives <span class="math display">\[
@@ -874,21 +882,21 @@ S_{n}= \frac{e^{2}}{4a^{2}} \left( \csc{\frac{\pi}{n}} + \csc{\frac{2\pi}{n}} + 
 
 <!-- -->
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
 <div id="ref-Ainsworth2016FormMatter" class="csl-entry" role="listitem">
 Ainsworth, Thomas. 2016. <span>“Form Vs. Matter.”</span> In <em>The Stanford Encyclopedia of Philosophy</em>, edited by Edward N. Zalta and Uri Nodelman. <a href="https://plato.stanford.edu/entries/form-matter/">https://plato.stanford.edu/entries/form-matter/</a>.
 </div>
 <div id="ref-acs_lavoisier_landmark" class="csl-entry" role="listitem">
-American Chemical Society (ACS). n.d. <span>“Antoine Laurent Lavoisier — the Chemical Revolution (Landmark).”</span> American Chemical Society website. <a href="https://www.acs.org/education/whatischemistry/landmarks/lavoisier.html">https://www.acs.org/education/whatischemistry/landmarks/lavoisier.html</a>.
+American Chemical Society (ACS). n.d.a. <em>Antoine Laurent Lavoisier — the Chemical Revolution (Landmark)</em>. American Chemical Society website. <a href="https://www.acs.org/education/whatischemistry/landmarks/lavoisier.html">https://www.acs.org/education/whatischemistry/landmarks/lavoisier.html</a>.
 </div>
 <div id="ref-acs_priestley_landmark" class="csl-entry" role="listitem">
-———. n.d.b. <span>“Joseph Priestley — Discoverer of Oxygen (National Historic Chemical Landmark).”</span> American Chemical Society website. Accessed March 18, 2026. <a href="https://www.acs.org/education/whatischemistry/landmarks/josephpriestleyoxygen.html">https://www.acs.org/education/whatischemistry/landmarks/josephpriestleyoxygen.html</a>.
+American Chemical Society (ACS). n.d.-b. <em>Joseph Priestley — Discoverer of Oxygen (National Historic Chemical Landmark)</em>. American Chemical Society website. Accessed March 18, 2026. <a href="https://www.acs.org/education/whatischemistry/landmarks/josephpriestleyoxygen.html">https://www.acs.org/education/whatischemistry/landmarks/josephpriestleyoxygen.html</a>.
 </div>
 <div id="ref-w14193149" class="csl-entry" role="listitem">
 Angelakis, Andreas N., Jens Krasilnikoff, and Vasileios A. Tzanakakis. 2022. <span>“Evolution of Water Technologies and Corresponding Philosophy and Sciences Focusing on the Hellenic World Through the Millennia.”</span> <em>Water</em> 14 (19). <a href="https://doi.org/10.3390/w14193149">https://doi.org/10.3390/w14193149</a>.
 </div>
 <div id="ref-baily2008atomic" class="csl-entry" role="listitem">
-Baily, Charles. 2008. <span>“Atomic Modeling in the Early 20th Century: 1904–1913.”</span> PhilSci Archive. <a href="https://philsci-archive.pitt.edu/4232/">https://philsci-archive.pitt.edu/4232/</a>.
+Baily, Charles. 2008. <em>Atomic Modeling in the Early 20th Century: 1904–1913</em>. PhilSci Archive. <a href="https://philsci-archive.pitt.edu/4232/">https://philsci-archive.pitt.edu/4232/</a>.
 </div>
 <div id="ref-Bourne2003Mixing" class="csl-entry" role="listitem">
 Bourne, John R. 2003. <span>“Mixing and the Selectivity of Chemical Reactions.”</span> <em>Organic Process Research &amp; Development</em> 7 (4): 471–508. <a href="https://doi.org/10.1021/op020074q">https://doi.org/10.1021/op020074q</a>.
@@ -900,28 +908,28 @@ Busch, Uwe. 2023. <span>“Claims of Priority - the Scientific Path to the Disco
 <span>“Discoveries Leading to the Nuclear Atom Model.”</span> n.d. University of North Carolina Pressbooks / UEN. Accessed April 3, 2026. <a href="https://uen.pressbooks.pub/introductorychemistry/chapter/discoveries-leading-to-the-nuclear-atom-model/">https://uen.pressbooks.pub/introductorychemistry/chapter/discoveries-leading-to-the-nuclear-atom-model/</a>.
 </div>
 <div id="ref-britannica_cartwright" class="csl-entry" role="listitem">
-Encyclopaedia Britannica Editors. n.d.a. <span>“Edmund Cartwright.”</span> Britannica Online. Accessed March 18, 2026. <a href="https://www.britannica.com/biography/Edmund-Cartwright">https://www.britannica.com/biography/Edmund-Cartwright</a>.
+Encyclopaedia Britannica Editors. n.d.-a. <em>Edmund Cartwright</em>. Britannica Online. Accessed March 18, 2026. <a href="https://www.britannica.com/biography/Edmund-Cartwright">https://www.britannica.com/biography/Edmund-Cartwright</a>.
 </div>
 <div id="ref-britannica_hargreaves" class="csl-entry" role="listitem">
-———. n.d.b. <span>“James Hargreaves.”</span> Britannica Online. Accessed March 18, 2026. <a href="https://www.britannica.com/biography/James-Hargreaves">https://www.britannica.com/biography/James-Hargreaves</a>.
+Encyclopaedia Britannica Editors. n.d.-b. <em>James Hargreaves</em>. Britannica Online. Accessed March 18, 2026. <a href="https://www.britannica.com/biography/James-Hargreaves">https://www.britannica.com/biography/James-Hargreaves</a>.
 </div>
 <div id="ref-britannica_wilkinson" class="csl-entry" role="listitem">
-———. n.d.c. <span>“John Wilkinson.”</span> Britannica Online. Accessed March 18, 2026. <a href="https://www.britannica.com/biography/John-Wilkinson">https://www.britannica.com/biography/John-Wilkinson</a>.
+Encyclopaedia Britannica Editors. n.d.-c. <em>John Wilkinson</em>. Britannica Online. Accessed March 18, 2026. <a href="https://www.britannica.com/biography/John-Wilkinson">https://www.britannica.com/biography/John-Wilkinson</a>.
 </div>
 <div id="ref-britannica_arkwright" class="csl-entry" role="listitem">
-———. n.d.d. <span>“Sir Richard Arkwright.”</span> Britannica Online. Accessed March 18, 2026. <a href="https://www.britannica.com/biography/Richard-Arkwright">https://www.britannica.com/biography/Richard-Arkwright</a>.
+Encyclopaedia Britannica Editors. n.d.-d. <em>Sir Richard Arkwright</em>. Britannica Online. Accessed March 18, 2026. <a href="https://www.britannica.com/biography/Richard-Arkwright">https://www.britannica.com/biography/Richard-Arkwright</a>.
 </div>
 <div id="ref-flavell-while2011_leblanc" class="csl-entry" role="listitem">
 Flavell-While, Claudia. 2011. <span>“Nicolas Leblanc — Revolutionary Discoveries.”</span> <em>The Chemical Engineer (Features / Chemical Engineers Who Changed the World)</em>. <a href="https://www.thechemicalengineer.com/features/cewctw-nicolas-leblanc-revolutionary-discoveries/">https://www.thechemicalengineer.com/features/cewctw-nicolas-leblanc-revolutionary-discoveries/</a>.
 </div>
 <div id="ref-hentschel2009plum" class="csl-entry" role="listitem">
-Hentschel, Klaus. 2009. <span>“Atomic Models, j.j. Thomson’s <span>‘Plum Pudding’</span> Model.”</span> In <em>Compendium of Quantum Physics</em>, edited by Daniel Greenberger, Klaus Hentschel, and Friedel Weinert, 18–21. Berlin, Heidelberg: Springer. <a href="https://doi.org/10.1007/978-3-540-70626-7_9">https://doi.org/10.1007/978-3-540-70626-7_9</a>.
+Hentschel, Klaus. 2009. <span>“Atomic Models, j.j. Thomson’s <span>‘Plum Pudding’</span> Model.”</span> In <em>Compendium of Quantum Physics</em>, edited by Daniel Greenberger, Klaus Hentschel, and Friedel Weinert. Springer. <a href="https://doi.org/10.1007/978-3-540-70626-7_9">https://doi.org/10.1007/978-3-540-70626-7_9</a>.
 </div>
 <div id="ref-hon2013myth" class="csl-entry" role="listitem">
 Hon, Giora, and Bernard R. Goldstein. 2013. <span>“J. J. Thomson’s Plum-Pudding Atomic Model: The Making of a Scientific Myth.”</span> <em>Annalen Der Physik</em> 525 (8-9): A129–33. <a href="https://doi.org/10.1002/andp.201300732">https://doi.org/10.1002/andp.201300732</a>.
 </div>
 <div id="ref-klein2007_materials" class="csl-entry" role="listitem">
-Klein, Ursula, and Wolfgang Lefèvre. 2007. <em>Materials in Eighteenth-Century Science: A Historical Ontology</em>. Cambridge, MA: The MIT Press.
+Klein, Ursula, and Wolfgang Lefèvre. 2007. <em>Materials in Eighteenth-Century Science: A Historical Ontology</em>. The MIT Press.
 </div>
 <div id="ref-mitrovic2022_watt" class="csl-entry" role="listitem">
 Mitrović, Jovan. 2022. <span>“Some Ideas of James Watt in Contemporary Energy Conversion Thermodynamics.”</span> <em>Journal of Modern Physics</em> 13 (4): 385–409. <a href="https://doi.org/10.4236/jmp.2022.134027">https://doi.org/10.4236/jmp.2022.134027</a>.
@@ -933,7 +941,7 @@ Mohajan, Haradhan Kumar. 2019. <span>“The First Industrial Revolution: Creatio
 Renstrøm, Rasmus. 2022. <span>“Textbook Myths about Early Atomic Models.”</span> <em>arXiv Preprint arXiv:2212.08572</em>.
 </div>
 <div id="ref-roebuck_lead_chamber_1746" class="csl-entry" role="listitem">
-Roebuck, John R., John; secondary article by Phillips. n.d. / c. 1746. <span>“Roebuck Develops the Lead-Chamber Process.”</span> EBSCO Research Starters (history). <a href="https://www.ebsco.com/research-starters/history/john-roebuck">https://www.ebsco.com/research-starters/history/john-roebuck</a>.
+Roebuck, John R., John; secondary article by Phillips. n.d. / c. 1746. <em>Roebuck Develops the Lead-Chamber Process</em>. EBSCO Research Starters (history). <a href="https://www.ebsco.com/research-starters/history/john-roebuck">https://www.ebsco.com/research-starters/history/john-roebuck</a>.
 </div>
 <div id="ref-sharma2022_materials_timeline" class="csl-entry" role="listitem">
 Sharma, Prince. 2022. <span>“A Brief Account of Man, Material and Manufacturing: On the Timeline.”</span> <em>Materials Today: Proceedings</em> 66: 3572–77. <a href="https://doi.org/10.1016/j.matpr.2022.07.016">https://doi.org/10.1016/j.matpr.2022.07.016</a>.
@@ -945,22 +953,22 @@ Taylor, Georgette. 2007. <span>“Materials in Eighteenth-Century Science: A His
 Thomson, J. J. 1897. <span>“Cathode Rays.”</span> <em>Philosophical Magazine</em> 44: 293–316.
 </div>
 <div id="ref-thomson1903magnetic" class="csl-entry" role="listitem">
-———. 1903. <span>“On the Magnetic Properties of Systems of Corpuscles Describing Circular Orbits.”</span> <em>Philosophical Magazine</em> 6: 673–93.
+Thomson, J. J. 1903. <span>“On the Magnetic Properties of Systems of Corpuscles Describing Circular Orbits.”</span> <em>Philosophical Magazine</em> 6: 673–93.
 </div>
 <div id="ref-thomson1904electricity" class="csl-entry" role="listitem">
-———. 1904a. <em>Electricity and Matter</em>. New Haven: Yale University Press.
+Thomson, J. J. 1904a. <em>Electricity and Matter</em>. Yale University Press.
 </div>
 <div id="ref-thomson1904structure" class="csl-entry" role="listitem">
-———. 1904b. <span>“On the Structure of the Atom: An Investigation of the Stability and Periods of Oscillation of a Number of Corpuscles Arranged at Equal Intervals Around the Circumference of a Circle; with Application of the Results to the Theory of Atomic Structure.”</span> <em>The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science</em>, 6th series, 7 (39): 237–65. <a href="https://doi.org/10.1080/14786440409463107">https://doi.org/10.1080/14786440409463107</a>.
+Thomson, J. J. 1904b. <span>“On the Structure of the Atom: An Investigation of the Stability and Periods of Oscillation of a Number of Corpuscles Arranged at Equal Intervals Around the Circumference of a Circle; with Application of the Results to the Theory of Atomic Structure.”</span> <em>The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science</em>, 6th series, vol. 7 (39): 237–65. <a href="https://doi.org/10.1080/14786440409463107">https://doi.org/10.1080/14786440409463107</a>.
 </div>
 <div id="ref-thomson1907corpuscular" class="csl-entry" role="listitem">
-———. 1907. <em>The Corpuscular Theory of Matter</em>. London: Archibald Constable.
+Thomson, J. J. 1907. <em>The Corpuscular Theory of Matter</em>. Archibald Constable.
 </div>
 <div id="ref-voelkel2017designorderofadditionexperiments" class="csl-entry" role="listitem">
-Voelkel, Joseph G. 2017. <span>“The Design of Order-of-Addition Experiments.”</span> <a href="https://arxiv.org/abs/1701.02786">https://arxiv.org/abs/1701.02786</a>.
+Voelkel, Joseph G. 2017. <em>The Design of Order-of-Addition Experiments</em>. <a href="https://arxiv.org/abs/1701.02786">https://arxiv.org/abs/1701.02786</a>.
 </div>
 <div id="ref-watt1769_patent" class="csl-entry" role="listitem">
-Watt, James. 1769. <span>“A Method of Lessening the Consumption of Steam in Steam Engines.”</span> British patent (specification) / patent record. <a href="https://www.datamp.org/patents/displayPatent.php?pn=176900913&amp;id=57320">https://www.datamp.org/patents/displayPatent.php?pn=176900913&amp;id=57320</a>.
+Watt, James. 1769. <em>A Method of Lessening the Consumption of Steam in Steam Engines</em>. British patent (specification) / patent record. <a href="https://www.datamp.org/patents/displayPatent.php?pn=176900913&amp;id=57320">https://www.datamp.org/patents/displayPatent.php?pn=176900913&amp;id=57320</a>.
 </div>
 </div>
 </section>
@@ -969,6 +977,258 @@ Watt, James. 1769. <span>“A Method of Lessening the Consumption of Steam in St
 
 
 </main> <!-- /main -->
+<script id="rhinelab-tools">
+/* RHINELAB docs tools: sidebar filter, expand/collapse/locate, remembered
+   section state, Sphinx-style page panel, keyboard nav, code language labels.
+   No dependencies; uses Bootstrap's Collapse if present. */
+(() => {
+  "use strict";
+
+  const onReady = (fn) =>
+    document.readyState === "loading"
+      ? document.addEventListener("DOMContentLoaded", () => setTimeout(fn, 0))
+      : setTimeout(fn, 0);
+
+  // one storage namespace per site (several sites can share a domain)
+  const siteRoot = (() => {
+    const off = document.querySelector('meta[name="quarto:offset"]');
+    try { return new URL(off ? off.content : "./", location.href).pathname; }
+    catch { return "/"; }
+  })();
+  const store = {
+    key: "rhinelab:sidebar:" + siteRoot,
+    read() { try { return JSON.parse(localStorage.getItem(this.key)) || {}; } catch { return {}; } },
+    write(v) { try { localStorage.setItem(this.key, JSON.stringify(v)); } catch {} },
+  };
+
+  const el = (tag, attrs = {}, html = "") => {
+    const n = document.createElement(tag);
+    for (const [k, v] of Object.entries(attrs)) n.setAttribute(k, v);
+    if (html) n.innerHTML = html;
+    return n;
+  };
+  const esc = (s) => s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const clean = (s) => (s || "").replace(/\s+/g, " ").trim();
+  const isTyping = (t) => t && (t.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName));
+
+  onReady(() => {
+    const sidebar = document.getElementById("quarto-sidebar");
+    const menu = sidebar && sidebar.querySelector(".sidebar-menu-container");
+    const prevLink = document.querySelector(".page-navigation .nav-page-previous a.pagination-link");
+    const nextLink = document.querySelector(".page-navigation .nav-page-next a.pagination-link");
+
+    // ── code blocks: language label ────────────────────────────────────
+    const skip = new Set(["sourceCode", "code-with-copy", "number-lines", "numberSource", "code-annotation-code", "cell-code"]);
+    document.querySelectorAll("div.sourceCode > pre.sourceCode").forEach((pre) => {
+      const lang = [...pre.classList].find((c) => !skip.has(c));
+      if (lang) pre.parentElement.setAttribute("data-lang", lang === "r" ? "R" : lang);
+    });
+
+    // ── keyboard: [ ] prev/next page, t = filter ───────────────────────
+    let filterInput = null;
+    document.addEventListener("keydown", (e) => {
+      if (e.defaultPrevented || e.ctrlKey || e.metaKey || e.altKey || isTyping(e.target)) return;
+      if (e.key === "[" && prevLink) { e.preventDefault(); location.href = prevLink.href; }
+      else if (e.key === "]" && nextLink) { e.preventDefault(); location.href = nextLink.href; }
+      else if (e.key === "t" && filterInput && filterInput.offsetParent !== null) {
+        e.preventDefault(); filterInput.focus(); filterInput.select();
+      }
+    });
+
+    if (!sidebar || !menu) return;
+
+    // ── section open/close helpers ─────────────────────────────────────
+    const sections = () => [...menu.querySelectorAll("ul.sidebar-section[id]")];
+    const triggersFor = (ul) => sidebar.querySelectorAll(`[data-bs-target="#${CSS.escape(ul.id)}"]`);
+    const setOpen = (ul, open) => {
+      ul.classList.toggle("show", open);
+      triggersFor(ul).forEach((a) => {
+        a.setAttribute("aria-expanded", String(open));
+        a.classList.toggle("collapsed", !open);
+      });
+    };
+    const holdsActive = (ul) => !!ul.querySelector("a.sidebar-link.active");
+    const openAncestors = (node) => {
+      let ul = node.closest("ul.sidebar-section");
+      while (ul) { setOpen(ul, true); ul = ul.parentElement.closest("ul.sidebar-section"); }
+    };
+
+    // remember what the reader opened/closed, across pages
+    let state = store.read();
+    sections().forEach((ul) => {
+      if (!(ul.id in state)) return;
+      if (state[ul.id] === false && holdsActive(ul)) return; // never hide the current page
+      setOpen(ul, state[ul.id]);
+    });
+    let filtering = false;
+    const remember = (e) => {
+      const ul = e.target;
+      if (filtering || !ul.classList || !ul.classList.contains("sidebar-section") || !ul.id) return;
+      state[ul.id] = e.type === "shown.bs.collapse";
+      store.write(state);
+    };
+    sidebar.addEventListener("shown.bs.collapse", remember);
+    sidebar.addEventListener("hidden.bs.collapse", remember);
+
+    // ── toolbar: filter + expand/collapse/locate ───────────────────────
+    const bar = el("div", { class: "mt-sb-toolbar", role: "toolbar", "aria-label": "Navigation tools" });
+    bar.innerHTML =
+      '<label class="mt-sb-filter"><i class="bi bi-funnel" aria-hidden="true"></i>' +
+      '<input type="search" placeholder="Filter pages" aria-label="Filter navigation" autocomplete="off" spellcheck="false">' +
+      "<kbd>t</kbd></label>" +
+      '<button type="button" class="mt-sb-btn" data-act="expand" title="Expand all"><i class="bi bi-arrows-expand"></i></button>' +
+      '<button type="button" class="mt-sb-btn" data-act="collapse" title="Collapse all"><i class="bi bi-arrows-collapse"></i></button>' +
+      '<button type="button" class="mt-sb-btn" data-act="locate" title="Reveal current page"><i class="bi bi-crosshair"></i></button>';
+    menu.parentNode.insertBefore(bar, menu);
+    filterInput = bar.querySelector("input");
+    const empty = el("div", { class: "mt-sb-empty", hidden: "" }, "no matching pages");
+    menu.appendChild(empty);
+
+    // scroll only the sidebar (scrollIntoView would also move the page)
+    const centerIn = (a, smooth) => {
+      const r = a.getBoundingClientRect(), s = sidebar.getBoundingClientRect();
+      sidebar.scrollTo({ top: sidebar.scrollTop + (r.top - s.top) - s.height / 2 + r.height / 2,
+                         behavior: smooth ? "smooth" : "auto" });
+    };
+    const locate = () => {
+      const a = menu.querySelector("a.sidebar-link.active");
+      if (!a) return;
+      openAncestors(a);
+      centerIn(a, true);
+      a.focus({ preventScroll: true });
+    };
+
+    bar.addEventListener("click", (e) => {
+      const btn = e.target.closest("button[data-act]");
+      if (!btn) return;
+      const act = btn.dataset.act;
+      if (act === "locate") return locate();
+      const open = act === "expand";
+      sections().forEach((ul) => { setOpen(ul, open); state[ul.id] = open; });
+      if (!open) { const a = menu.querySelector("a.sidebar-link.active"); if (a) openAncestors(a); }
+      store.write(state);
+    });
+
+    // filter
+    const items = [...menu.querySelectorAll("li.sidebar-item")];
+    const labelOf = (li) => {
+      const a = li.querySelector(":scope > .sidebar-item-container > a.sidebar-item-text");
+      return clean(a ? a.textContent : "").toLowerCase();
+    };
+    const labels = new Map(items.map((li) => [li, labelOf(li)]));
+    let snapshot = null;
+
+    const runFilter = (raw) => {
+      const terms = clean(raw).toLowerCase().split(" ").filter(Boolean);
+      if (!terms.length) {
+        filtering = false;
+        items.forEach((li) => li.classList.remove("mt-hide", "mt-match"));
+        if (snapshot) { snapshot.forEach(([ul, open]) => setOpen(ul, open)); snapshot = null; }
+        empty.hidden = true;
+        return;
+      }
+      if (!snapshot) snapshot = sections().map((ul) => [ul, ul.classList.contains("show")]);
+      filtering = true;
+      items.forEach((li) => { li.classList.add("mt-hide"); li.classList.remove("mt-match"); });
+      let hits = 0;
+      items.forEach((li) => {
+        const label = labels.get(li);
+        if (!terms.every((t) => label.includes(t))) return;
+        hits++;
+        li.classList.remove("mt-hide");
+        li.classList.add("mt-match");
+        const own = li.querySelector(":scope > ul.sidebar-section");
+        if (own) { setOpen(own, true); own.querySelectorAll("li.sidebar-item").forEach((d) => d.classList.remove("mt-hide")); }
+        let p = li.parentElement.closest("li.sidebar-item");
+        while (p) {
+          p.classList.remove("mt-hide");
+          const ul = p.querySelector(":scope > ul.sidebar-section");
+          if (ul) setOpen(ul, true);
+          p = p.parentElement.closest("li.sidebar-item");
+        }
+      });
+      empty.hidden = hits > 0;
+    };
+
+    filterInput.addEventListener("input", () => runFilter(filterInput.value));
+    filterInput.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") { filterInput.value = ""; runFilter(""); filterInput.blur(); }
+      else if (e.key === "Enter") {
+        const first = menu.querySelector("li.mt-match > .sidebar-item-container > a.sidebar-link[href]");
+        if (first) location.href = first.href;
+      } else if (e.key === "ArrowDown") {
+        const first = menu.querySelector("li.sidebar-item:not(.mt-hide) a.sidebar-link[href]");
+        if (first) { e.preventDefault(); first.focus(); }
+      }
+    });
+
+    // ↑/↓ moves between visible links inside the tree
+    menu.addEventListener("keydown", (e) => {
+      if (e.key !== "ArrowDown" && e.key !== "ArrowUp") return;
+      const links = [...menu.querySelectorAll("a.sidebar-link[href]")].filter((a) => a.offsetParent !== null);
+      const i = links.indexOf(document.activeElement);
+      if (i < 0) return;
+      e.preventDefault();
+      const j = e.key === "ArrowDown" ? Math.min(i + 1, links.length - 1) : i - 1;
+      if (j < 0) filterInput.focus(); else links[j].focus();
+    });
+
+    // ── page panel (Sphinx: previous / next topic, this page, meta) ────
+    const panel = el("div", { class: "mt-sb-panel" });
+    const topic = (a, dir, label) =>
+      `<section class="mt-sb-block"><h6>${label}</h6><a class="mt-topic" href="${a.getAttribute("href")}">` +
+      `<span class="mt-dir">${dir}</span><span>${esc(clean(a.textContent))}</span></a></section>`;
+    let html = "";
+    if (prevLink) html += topic(prevLink, "[", "Previous topic");
+    if (nextLink) html += topic(nextLink, "]", "Next topic");
+
+    const actionsBox = document.querySelector("#quarto-margin-sidebar .toc-actions") ||
+                       document.querySelector("nav[role='doc-toc'] .toc-actions");
+    const actions = actionsBox ? [...actionsBox.querySelectorAll("a")] : [];
+    const icon = (t) => /edit/i.test(t) ? "pencil-square" : /issue|bug/i.test(t) ? "bug" : /source/i.test(t) ? "file-earmark-code" : "box-arrow-up-right";
+    html += '<section class="mt-sb-block"><h6>This page</h6><ul>';
+    actions.forEach((a) => {
+      const t = clean(a.textContent);
+      html += `<li><a href="${a.getAttribute("href")}"${a.target ? ` target="${a.target}"` : ""}><i class="bi bi-${icon(t)}"></i>${esc(t)}</a></li>`;
+    });
+    html += '<li><button type="button" class="mt-linklike" data-act="copy-link"><i class="bi bi-link-45deg"></i><span>Copy link</span></button></li>';
+    html += "</ul></section>";
+
+    const main = document.querySelector("main.content");
+    if (main) {
+      const body = main.cloneNode(true);
+      body.querySelectorAll("pre, code, script, style, .MathJax, mjx-container, .quarto-title-block, nav, .footnotes").forEach((n) => n.remove());
+      const words = (body.textContent.match(/[\p{L}\p{N}][\p{L}\p{N}'’-]*/gu) || []).length;
+      const mod = document.querySelector(".quarto-title-meta .date-modified, p.date-modified");
+      const secs = main.querySelectorAll("section.level2").length;
+      html += '<section class="mt-sb-block mt-sb-meta"><h6>Page</h6><dl>';
+      if (mod) html += `<dt>Modified</dt><dd>${esc(clean(mod.textContent))}</dd>`;
+      html += `<dt>Length</dt><dd>${words.toLocaleString()} words · ~${Math.max(1, Math.round(words / 220))} min</dd>`;
+      if (secs) html += `<dt>Sections</dt><dd>${secs}</dd>`;
+      html += "</dl></section>";
+    }
+    html += '<div class="mt-sb-keys"><kbd>t</kbd> filter · <kbd>[</kbd> <kbd>]</kbd> prev/next · <kbd>s</kbd> search</div>';
+    panel.innerHTML = html;
+    menu.after(panel);
+
+    panel.addEventListener("click", async (e) => {
+      const btn = e.target.closest('[data-act="copy-link"]');
+      if (!btn) return;
+      const span = btn.querySelector("span");
+      try { await navigator.clipboard.writeText(location.href.split("#")[0]); span.textContent = "Copied"; }
+      catch { span.textContent = "Copy failed"; }
+      setTimeout(() => (span.textContent = "Copy link"), 1400);
+    });
+
+    // keep the current page in view on load (without animation)
+    const active = menu.querySelector("a.sidebar-link.active");
+    if (active) {
+      const r = active.getBoundingClientRect(), s = sidebar.getBoundingClientRect();
+      if (r.top < s.top || r.bottom > s.bottom) centerIn(active, false);
+    }
+  });
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -1120,6 +1380,13 @@ Watt, James. 1769. <span>“A Method of Lessening the Consumption of Steam in St
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+            // default icon
+            link.classList.add("external");
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -1374,25 +1641,64 @@ Watt, James. 1769. <span>“A Method of Lessening the Consumption of Steam in St
           }
         };
       }
-        // Attach click handler to the DT
-        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-        for (const annoteDlNode of annoteDls) {
-          annoteDlNode.addEventListener('click', (event) => {
-            const clickedEl = event.target;
-            if (clickedEl !== selectedAnnoteEl) {
-              unselectCodeLines();
-              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-              if (activeEl) {
-                activeEl.classList.remove('code-annotation-active');
-              }
-              selectCodeLines(clickedEl);
-              clickedEl.classList.add('code-annotation-active');
-            } else {
-              // Unselect the line
-              unselectCodeLines();
-              clickedEl.classList.remove('code-annotation-active');
+        const annoteTargets = window.document.querySelectorAll('.code-annotation-anchor');
+        for (let i=0; i<annoteTargets.length; i++) {
+          const annoteTarget = annoteTargets[i];
+          const targetCell = annoteTarget.getAttribute("data-target-cell");
+          const targetAnnotation = annoteTarget.getAttribute("data-target-annotation");
+          const contentFn = () => {
+            const content = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+            if (content) {
+              const tipContent = content.cloneNode(true);
+              tipContent.classList.add("code-annotation-tip-content");
+              return tipContent.outerHTML;
             }
-          });
+          }
+          const config = {
+            allowHTML: true,
+            content: contentFn,
+            onShow: (instance) => {
+              selectCodeLines(instance.reference);
+              instance.reference.classList.add('code-annotation-active');
+              window.tippy.hideAll();
+            },
+            onHide: (instance) => {
+              unselectCodeLines();
+              instance.reference.classList.remove('code-annotation-active');
+            },
+            maxWidth: 300,
+            delay: [50, 0],
+            duration: [200, 0],
+            offset: [5, 10],
+            arrow: true,
+            appendTo: function(el) {
+              return el.parentElement.parentElement.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'quarto',
+            placement: 'right',
+            popperOptions: {
+              modifiers: [
+              {
+                name: 'flip',
+                options: {
+                  flipVariations: false, // true by default
+                  allowedAutoPlacements: ['right'],
+                  fallbackPlacements: ['right', 'top', 'top-start', 'top-end', 'bottom', 'bottom-start', 'bottom-end', 'left'],
+                },
+              },
+              {
+                name: 'preventOverflow',
+                options: {
+                  mainAxis: false,
+                  altAxis: false
+                }
+              }
+              ]        
+            }      
+          };
+          window.tippy(annoteTarget, config); 
         }
     const findCites = (el) => {
       const parentEl = el.parentElement;
@@ -1705,7 +2011,7 @@ Watt, James. 1769. <span>“A Method of Lessening the Consumption of Steam in St
 <span id="cb1-258"><a href="#cb1-258" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-259"><a href="#cb1-259" aria-hidden="true" tabindex="-1"></a>The action itself is not wrong. Indeed, when we consider the hydrogen atom, it can be said to be the simplest ever atom observed of the physical reality with its configurations. Implicitly, the Daltonian framework does not reject Prout's hypothesis, but simply just giving a *justification of compositions* for where all the atomic differentiation between different atomic species are from, in the form being the answer as *modularity*, where the simplest structure helps itself to create a newer theory. </span>
 <span id="cb1-260"><a href="#cb1-260" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-261"><a href="#cb1-261" aria-hidden="true" tabindex="-1"></a>Let us deploy the hypothesis. Suppose that we have the set of $\mathcal{N}\equiv<span class="sc">\{</span>N<span class="sc">\}</span>$ chemical elements. Then, Daltonian framework says that they differ three fundamental categories. First, mass $m$, second, size $v$ if we are to speak of volumetric adherence, and third, $p_{1},...,p_{n}$ of certain other properties. Because of the aforementioned compound problem, we suppose the properties list would be *complexity-dependent* that would emerge inconsistently and fundamentally plural given its circumstances and setup of the empirical usages. Then, we focus on $m$ and $v$. Because $v$ as we now know, is approximately small on the order of $\mu m$, my Daltonian scale, they can be said to approximately negligible as the choice of comparison. Then, the question remains would be to distinguish one singular element from another. This pushes the question to the **atom** itself as to ask *what is the atom*? More specifically, can there be existence of the *simplest possible atom* that would explain for how it was formed? That is Prout's direction. The other direction would be the *anti-modularity formalists* in the sense of non-collapse into atom composition, but to say that in general, the atoms differ like balloon - some can be big, some can be small, but they are *configured that way* and of the same *concentration* mechanics. This foregrounds the extrapolation outside the framework, implicitly, but internally of Daltonian framework, such allows for saying of the special element $N$ from $M$, thus validates Daltonian than being extracted of the implication. Daltonian modularity search comes with a problem. How do you presuppose the singular atom? There are many choices for that. For example, $\mathrm{He}$ for helium is with currently specified atomic mass to be around $4.002602$. By the time of Daltonian precision, that equates to simply $4$. Oxygen is $15.9994$, approximately still to be $16$. Then, indeed, we can say that helium constitutes oxygen. Which is weird, because Helium cannot form Nitrogen or Boron because of the whole number requirement. Lithium (for $\mathrm{Li}$ to be $\sim 6.941$) would be close to forming Neon, as $\mathrm{Ne}\sim 20.1797$. The pattern is inconsistent, but it is rather clear from experiments, they are non-trivially large. The only candidate that would be feasible under such thinking of such, without asking the blocked move of what is even the atom, would be to take *hydrogen*, which is of approximately $1.00794$ atomic mass. The number is almost too nice, and for the precision of the time, such can be said to simple one. That is where Prout was, and how the conjecture was formed. Surprisingly however, the issue is self-referential, using its own assumptions to immunize itself against the question those assumptions generated, of which would be seen in its response against Prout. </span>
+<span id="cb1-261"><a href="#cb1-261" aria-hidden="true" tabindex="-1"></a>Let us deploy the hypothesis. Suppose that we have the set of $\mathcal{N}\equiv<span class="sc">\{</span>N<span class="sc">\}</span>$ chemical elements. Then, Daltonian framework says that they differ three fundamental categories. First, mass $m$, second, size $v$ if we are to speak of volumetric adherence, and third, $p_{1},...,p_{n}$ of certain other properties. Because of the aforementioned compound problem, we suppose the properties list would be *complexity-dependent* that would emerge inconsistently and fundamentally plural given its circumstances and setup of the empirical usages. Then, we focus on $m$ and $v$. Because $v$ as we now know, is approximately small on the order of $\mu m$, by Daltonian scale, they can be said to approximately negligible as the choice of comparison. Then, the question remains would be to distinguish one singular element from another. This pushes the question to the **atom** itself as to ask *what is the atom*? More specifically, can there be existence of the *simplest possible atom* that would explain for how it was formed? That is Prout's direction. The other direction would be the *anti-modularity formalists* in the sense of non-collapse into atom composition, but to say that in general, the atoms differ like balloon - some can be big, some can be small, but they are *configured that way* and of the same *concentration* mechanics. This foregrounds the extrapolation outside the framework, implicitly, but internally of Daltonian framework, such allows for saying of the special element $N$ from $M$, thus validates Daltonian than being extracted of the implication. Daltonian modularity search comes with a problem. How do you presuppose the singular atom? There are many choices for that. For example, $\mathrm{He}$ for helium is with currently specified atomic mass to be around $4.002602$. By the time of Daltonian precision, that equates to simply $4$. Oxygen is $15.9994$, approximately still to be $16$. Then, indeed, we can say that helium constitutes oxygen. Which is weird, because Helium cannot form Nitrogen or Boron because of the whole number requirement. Lithium (for $\mathrm{Li}$ to be $\sim 6.941$) would be close to forming Neon, as $\mathrm{Ne}\sim 20.1797$. The pattern is inconsistent, but it is rather clear from experiments, they are non-trivially large. The only candidate that would be feasible under such thinking of such, without asking the blocked move of what is even the atom, would be to take *hydrogen*, which is of approximately $1.00794$ atomic mass. The number is almost too nice, and for the precision of the time, such can be said to simple one. That is where Prout was, and how the conjecture was formed. Surprisingly however, the issue is self-referential, using its own assumptions to immunize itself against the question those assumptions generated, of which would be seen in its response against Prout. </span>
 <span id="cb1-262"><a href="#cb1-262" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-263"><a href="#cb1-263" aria-hidden="true" tabindex="-1"></a>The Daltonian framework, by then, responded by rejecting Prout empirically. A series of more careful measurements of the atomic weights, compiled by Berzelius in 1828 and Turner in 1832, disproved quite so of the hypothesis - in particular of the atomic weight of chlorine, the proportion is $35.45$ instead, which is not whole number as said. In fact, Berzelius, the foremost analytical chemist that compiled such, said in his work to be:</span>
 <span id="cb1-264"><a href="#cb1-264" aria-hidden="true" tabindex="-1"></a></span>
@@ -1713,7 +2019,7 @@ Watt, James. 1769. <span>“A Method of Lessening the Consumption of Steam in St
 <span id="cb1-266"><a href="#cb1-266" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-267"><a href="#cb1-267" aria-hidden="true" tabindex="-1"></a>Ironically, however, the result of being $35.45$ times that of Hydrogen worked against his favour, of which would be our current atomic model of current time. Suppose that the process we have contains a chemical reaction, specifically, between chlorine, oxygen, and hydrogen. Then, it is true that oxygen and hydrogen satisfies the trivial $k/p$-ratio requirement of chemical operation. However, this means that chlorine would not. Hence, the ordering matter, which means that same compositional chemistry, different history, different impossibility result. Furthermore, if oxygen and hydrogen reaction under certain specificity produces $\mathrm{H_{2}O}$, in which dilute and *react* with chlorine to form hypochlorous acid and hydrochloric acid, then it means that the dissemination of resolution increases - the reactant must include a sub-process, and why such exists is not known. Moreover, as we know of current form, chlorine reacts vigorously with hydrogen to produce hydrogen chloride gas. This means this direct argument glossed over the inconsistency in favour of conservatism that would expand the crack in another place rather than close it - we missed an entire process, and how the process works would not be known exactly. In a sense, Berzelius invited himself to a Turkey shoot of Dalton's leg. </span>
 <span id="cb1-268"><a href="#cb1-268" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-269"><a href="#cb1-269" aria-hidden="true" tabindex="-1"></a>In the end, Prout's question was not answered. It was suppressed by more precise atomic weight measurements that appeared to refute it, but unknowingly, also widen the cracks. Furthermore, the discovery of *isotope* in much later covered this in much specificity - if the condition of neutron composition is good enough and calculated enough, no matter stability, then **any** element is able to be the baseline hydrogen is. Thus, bring us back to Act II, and the dissemination problem - what is even the *prime matter*?</span>
+<span id="cb1-269"><a href="#cb1-269" aria-hidden="true" tabindex="-1"></a>In the end, Prout's question was not answered. It was suppressed by more precise atomic weight measurements that appeared to refute it, but unknowingly, also widen the cracks. Furthermore, the discovery of *isotope* in much later covered this in much specificity - if the condition of neutron composition is good enough and calculated enough, no matter stability, then **any** element is able to be the baseline hydrogen is. Thus, brings us back to Act II, and the dissemination problem - what is even the *prime matter*?</span>
 <span id="cb1-270"><a href="#cb1-270" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-271"><a href="#cb1-271" aria-hidden="true" tabindex="-1"></a><span class="fu">#### The anti-atomist movement, and positivist challenge (1840s-1890s)</span></span>
 <span id="cb1-272"><a href="#cb1-272" aria-hidden="true" tabindex="-1"></a></span>
@@ -1747,7 +2053,7 @@ Watt, James. 1769. <span>“A Method of Lessening the Consumption of Steam in St
 <span id="cb1-300"><a href="#cb1-300" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-301"><a href="#cb1-301" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; "As the cathode rays carry a charge of negative electricity, are deflected by an electrostatic force as if they were negatively electrified, and are acted on by a magnetic force in just the way in which this force would act on a negatively electrified body moving along the path of these rays, I can see no escape from the conclusion that they are charges of negative electricity carried by particles of matter"</span></span>
 <span id="cb1-302"><a href="#cb1-302" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-303"><a href="#cb1-303" aria-hidden="true" tabindex="-1"></a>The elaboration into what we know of the present as the $e/m$-identification experiment, he found that each of the particles had the same small mass, about approximately $1/2000$ of the mass of a hydrogen, which, if we remember from what Prout was after, was once the proponent for the basis of the entire universal atomic model. Those experiments led him to at that time, far further than when such model t exist, believe that these particles were a basic constituent of matter; which influenced the decision, or rather the idea proposal of which can be said as atom, plus electron. The reason why such model *still retain* electron is also not a crude story either. When you have electron, smaller than the constituent part of which the entire periodic table was built on, you can only ask - where the electron is attached on such model? The way to imagine that, is to get them being absorbed, or stuck on the surface of what is said to be the atom, plumbing inside as part of the atom. That is where the **plum pudding model** was, and should be clear once we enter the Thomson atomic model. </span>
+<span id="cb1-303"><a href="#cb1-303" aria-hidden="true" tabindex="-1"></a>The elaboration into what we know of the present as the $e/m$-identification experiment, he found that each of the particles had the same small mass, about approximately $1/2000$ of the mass of a hydrogen, which, if we remember from what Prout was after, was once the proponent for the basis of the entire universal atomic model. Those experiments led him to at that time, far further than when such model to exist, believed that these particles were a basic constituent of matter; which influenced the decision, or rather the idea proposal of which can be said as atom, plus electron. The reason why such model *still retains* electron is also not a crude story either. When you have electron, smaller than the constituent part of which the entire periodic table was built on, you can only ask - where the electron is attached on such model? The way to imagine that, is to get them being absorbed, or stuck on the surface of what is said to be the atom, plumbing inside as part of the atom. That is where the **plum pudding model** was, and should be clear once we enter the Thomson atomic model. </span>
 <span id="cb1-304"><a href="#cb1-304" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-305"><a href="#cb1-305" aria-hidden="true" tabindex="-1"></a><span class="fu">### The **vortex atom** - string theory in a different past (1860s-1890s)</span></span>
 <span id="cb1-306"><a href="#cb1-306" aria-hidden="true" tabindex="-1"></a></span>

@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.24">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>2&nbsp; Material – Material Science Laboratory Documentation</title>
+<title>2&nbsp; Material – Material Science Documentation</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -59,7 +62,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
-  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -89,15 +91,18 @@ div.csl-indent {
 <link href="../../Figures/favicon.ico" rel="icon">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-16365895d012c6821ad2015e20b8b579.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-be5d01a035611e5caa05065215894e97.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-0ef14ab1bd9b01543e0f27530284b958.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-be5d01a035611e5caa05065215894e97.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-6672da275430a0c1037b893d6311099f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-bf4e593068bd9ca07a4d32c51b0ba6f3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-c911523ab3c2d08f314f5690ccd08cb3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-bf4e593068bd9ca07a4d32c51b0ba6f3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -128,7 +133,7 @@ div.csl-indent {
 <style>html{ scroll-behavior: smooth; }</style>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -159,7 +164,178 @@ window.Quarto = {
 
 </head>
 
-<body class="nav-sidebar docked quarto-light">
+<body class="nav-sidebar docked quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -181,13 +357,12 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
-      <a href="../../index.html" class="sidebar-logo-link">
-      </a>
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="../../">Material Science Laboratory Documentation</a> 
+      <a href="../../">Material Science Documentation</a> 
         <div class="sidebar-tools-main">
     <a href="https://github.com/tree/main/book/" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
     </div>
       </div>
@@ -225,6 +400,12 @@ window.Quarto = {
  <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">The map of material science</span></span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../main/c1/c1.3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Material science, simulations</span></span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -239,7 +420,13 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../main/c2/c2.1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Modelling and tool of artificial intelligence</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Modelling and tool of artificial intelligence</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../main/c2/c2.2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Reviewing the scripts</span></span></a>
   </div>
 </li>
       </ul>
@@ -247,7 +434,7 @@ window.Quarto = {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../bibliography.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Bibliography</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Bibliography</span></span></a>
   </div>
 </li>
     </ul>
@@ -256,8 +443,8 @@ window.Quarto = {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="1">
+    <h2 id="toc-title">On this page</h2>
    
   <ul>
   <li><a href="#the-tell-tale-of-material-amelia-carolina-sparavigna-2011" id="toc-the-tell-tale-of-material-amelia-carolina-sparavigna-2011" class="nav-link active" data-scroll-target="#the-tell-tale-of-material-amelia-carolina-sparavigna-2011"><span class="header-section-number">2.1</span> The tell-tale of material (Amelia Carolina Sparavigna, 2011)</a></li>
@@ -271,6 +458,7 @@ window.Quarto = {
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
+
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../main/c1/c1.1.html">Materials</a></li><li class="breadcrumb-item"><a href="../../main/c1/c1.1.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Material</span></a></li></ol></nav>
 <div class="quarto-title">
@@ -346,7 +534,7 @@ window.Quarto = {
 <hr>
 <p>Another thing to note, lies rather in the physics itself. During the earlier development of metallurgy, during the 1920s, for example with Frenkel’s paper <span class="citation" data-cites="frenkel1926shear">(<a href="../../bibliography.html#ref-frenkel1926shear" role="doc-biblioref">Frenkel 1926</a>)</span>, established what was then known as the <strong>plastic deformation paradox</strong>. Within such, Frenkel estimated the stress required to slide one atomic plane over another in a <strong>perfect lattice</strong> and thus gave <span class="math display">\[
 \tau_{ideal}\approx \frac{G}{2\pi}
-\]</span> where <span class="math inline">\(G\)</span> is the shear modulus. For typical metals, this gives <span class="math inline">\(\tau_{ideal}\sim 10^{-1}G\)</span>, however, experimental yield stresses were typically <span class="math inline">\(\tau_{exp}\sim 10^{-4}G\)</span>. Thus, there exists the discrepancy of the theory itself, and what the experiment gives. By the late 1920s, the discrepancy between theory and experiment of such was widely recognized in crystal physics and metallurgy, for which it is rather troubling because the predictions stemming from such rather <em>suspiciously stable</em> theory can be catastrophically wrong. Such stemmed the efforts made by which is the recognition for <strong>dislocation theory</strong>, for the specifically jointed tension effort by <span class="citation" data-cites="orowan1934plastic">(<a href="../../bibliography.html#ref-orowan1934plastic" role="doc-biblioref">Orowan 1934</a>)</span>, <span class="citation" data-cites="polanyi1934plastic">(<a href="../../bibliography.html#ref-polanyi1934plastic" role="doc-biblioref">Polanyi 1934</a>)</span>, then <span class="citation" data-cites="taylor1934plastic">(<a href="../../bibliography.html#ref-taylor1934plastic" role="doc-biblioref">Taylor 1934</a>)</span> and empirically confirmed of the conjecture by <span class="citation" data-cites="Hirsch2006-HIRDOO-2">(<a href="../../bibliography.html#ref-Hirsch2006-HIRDOO-2" role="doc-biblioref">Hirsch, Horne, and Whelan 2006</a>)</span>. where one posits that plastic deformation occurs through <em>line defects</em> than uniform sliding of entire planes. Essentially turning them to local (relatively) events. More specifically, it reframes the entire stress deformation as</p>
+\]</span> where <span class="math inline">\(G\)</span> is the shear modulus. For typical metals, this gives <span class="math inline">\(\tau_{ideal}\sim 10^{-1}G\)</span>, however, experimental yield stresses were typically <span class="math inline">\(\tau_{exp}\sim 10^{-4}G\)</span>. Thus, there exists the discrepancy of the theory itself, and what the experiment gives. By the late 1920s, the discrepancy between theory and experiment of such was widely recognized in crystal physics and metallurgy, for which it is rather troubling because the predictions stemming from such rather <em>suspiciously stable</em> theory can be catastrophically wrong. Such stemmed the efforts made by which is the recognition for <strong>dislocation theory</strong>, for the specifically jointed tension effort by <span class="citation" data-cites="orowan1934plastic">(<a href="../../bibliography.html#ref-orowan1934plastic" role="doc-biblioref">Orowan 1934</a>)</span>, <span class="citation" data-cites="polanyi1934plastic">(<a href="../../bibliography.html#ref-polanyi1934plastic" role="doc-biblioref">Polanyi 1934</a>)</span>, then <span class="citation" data-cites="taylor1934plastic">(<a href="../../bibliography.html#ref-taylor1934plastic" role="doc-biblioref">Taylor 1934</a>)</span> and empirically confirmed of the conjecture by <span class="citation" data-cites="Hirsch2006-HIRDOO-2">(<a href="../../bibliography.html#ref-Hirsch2006-HIRDOO-2" role="doc-biblioref">Hirsch et al. 2006</a>)</span>. where one posits that plastic deformation occurs through <em>line defects</em> than uniform sliding of entire planes. Essentially turning them to local (relatively) events. More specifically, it reframes the entire stress deformation as</p>
 <blockquote class="blockquote">
 <p>A dislocation is a linear crystallographic defect whose motion allows atoms to slide at low stress.</p>
 </blockquote>
@@ -362,12 +550,12 @@ window.Quarto = {
 
 <!-- -->
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list" style="display: none">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
 <div id="ref-cahn2001coming" class="csl-entry" role="listitem">
-Cahn, Robert W., ed. 2001. <em>The Coming of Materials Science</em>. Vol. 5. Pergamon Materials Series. Oxford: Elsevier / Pergamon.
+Cahn, Robert W., ed. 2001. <em>The Coming of Materials Science</em>. Vol. 5. Pergamon Materials Series. Elsevier / Pergamon.
 </div>
 <div id="ref-eliade1956forge" class="csl-entry" role="listitem">
-Eliade, Mircea. 1956. <em>The Forge and the Crucible: The Origins and Structure of Alchemy</em>. Paris: Flammarion.
+Eliade, Mircea. 1956. <em>The Forge and the Crucible: The Origins and Structure of Alchemy</em>. Flammarion.
 </div>
 <div id="ref-frenkel1926shear" class="csl-entry" role="listitem">
 Frenkel, J. 1926. <span>“Zur Theorie Der Elastizitätsgrenze Und Der Festigkeit Kristallinischer Körper.”</span> <em>Zeitschrift Für Physik</em> 37: 572–609. <a href="https://doi.org/10.1007/BF01389854">https://doi.org/10.1007/BF01389854</a>.
@@ -398,8 +586,273 @@ Valiev, Ruslan Z., I. V. Alexandrov, Yuntian T. Zhu, and T. C. Lowe. 2002. <span
 </section>
 
 </main> <!-- /main -->
+<script id="rhinelab-tools">
+/* RHINELAB docs tools: sidebar filter, expand/collapse/locate, remembered
+   section state, Sphinx-style page panel, keyboard nav, code language labels.
+   No dependencies; uses Bootstrap's Collapse if present. */
+(() => {
+  "use strict";
+
+  const onReady = (fn) =>
+    document.readyState === "loading"
+      ? document.addEventListener("DOMContentLoaded", () => setTimeout(fn, 0))
+      : setTimeout(fn, 0);
+
+  // one storage namespace per site (several sites can share a domain)
+  const siteRoot = (() => {
+    const off = document.querySelector('meta[name="quarto:offset"]');
+    try { return new URL(off ? off.content : "./", location.href).pathname; }
+    catch { return "/"; }
+  })();
+  const store = {
+    key: "rhinelab:sidebar:" + siteRoot,
+    read() { try { return JSON.parse(localStorage.getItem(this.key)) || {}; } catch { return {}; } },
+    write(v) { try { localStorage.setItem(this.key, JSON.stringify(v)); } catch {} },
+  };
+
+  const el = (tag, attrs = {}, html = "") => {
+    const n = document.createElement(tag);
+    for (const [k, v] of Object.entries(attrs)) n.setAttribute(k, v);
+    if (html) n.innerHTML = html;
+    return n;
+  };
+  const esc = (s) => s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const clean = (s) => (s || "").replace(/\s+/g, " ").trim();
+  const isTyping = (t) => t && (t.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(t.tagName));
+
+  onReady(() => {
+    const sidebar = document.getElementById("quarto-sidebar");
+    const menu = sidebar && sidebar.querySelector(".sidebar-menu-container");
+    const prevLink = document.querySelector(".page-navigation .nav-page-previous a.pagination-link");
+    const nextLink = document.querySelector(".page-navigation .nav-page-next a.pagination-link");
+
+    // ── code blocks: language label ────────────────────────────────────
+    const skip = new Set(["sourceCode", "code-with-copy", "number-lines", "numberSource", "code-annotation-code", "cell-code"]);
+    document.querySelectorAll("div.sourceCode > pre.sourceCode").forEach((pre) => {
+      const lang = [...pre.classList].find((c) => !skip.has(c));
+      if (lang) pre.parentElement.setAttribute("data-lang", lang === "r" ? "R" : lang);
+    });
+
+    // ── keyboard: [ ] prev/next page, t = filter ───────────────────────
+    let filterInput = null;
+    document.addEventListener("keydown", (e) => {
+      if (e.defaultPrevented || e.ctrlKey || e.metaKey || e.altKey || isTyping(e.target)) return;
+      if (e.key === "[" && prevLink) { e.preventDefault(); location.href = prevLink.href; }
+      else if (e.key === "]" && nextLink) { e.preventDefault(); location.href = nextLink.href; }
+      else if (e.key === "t" && filterInput && filterInput.offsetParent !== null) {
+        e.preventDefault(); filterInput.focus(); filterInput.select();
+      }
+    });
+
+    if (!sidebar || !menu) return;
+
+    // ── section open/close helpers ─────────────────────────────────────
+    const sections = () => [...menu.querySelectorAll("ul.sidebar-section[id]")];
+    const triggersFor = (ul) => sidebar.querySelectorAll(`[data-bs-target="#${CSS.escape(ul.id)}"]`);
+    const setOpen = (ul, open) => {
+      ul.classList.toggle("show", open);
+      triggersFor(ul).forEach((a) => {
+        a.setAttribute("aria-expanded", String(open));
+        a.classList.toggle("collapsed", !open);
+      });
+    };
+    const holdsActive = (ul) => !!ul.querySelector("a.sidebar-link.active");
+    const openAncestors = (node) => {
+      let ul = node.closest("ul.sidebar-section");
+      while (ul) { setOpen(ul, true); ul = ul.parentElement.closest("ul.sidebar-section"); }
+    };
+
+    // remember what the reader opened/closed, across pages
+    let state = store.read();
+    sections().forEach((ul) => {
+      if (!(ul.id in state)) return;
+      if (state[ul.id] === false && holdsActive(ul)) return; // never hide the current page
+      setOpen(ul, state[ul.id]);
+    });
+    let filtering = false;
+    const remember = (e) => {
+      const ul = e.target;
+      if (filtering || !ul.classList || !ul.classList.contains("sidebar-section") || !ul.id) return;
+      state[ul.id] = e.type === "shown.bs.collapse";
+      store.write(state);
+    };
+    sidebar.addEventListener("shown.bs.collapse", remember);
+    sidebar.addEventListener("hidden.bs.collapse", remember);
+
+    // ── toolbar: filter + expand/collapse/locate ───────────────────────
+    const bar = el("div", { class: "mt-sb-toolbar", role: "toolbar", "aria-label": "Navigation tools" });
+    bar.innerHTML =
+      '<label class="mt-sb-filter"><i class="bi bi-funnel" aria-hidden="true"></i>' +
+      '<input type="search" placeholder="Filter pages" aria-label="Filter navigation" autocomplete="off" spellcheck="false">' +
+      "<kbd>t</kbd></label>" +
+      '<button type="button" class="mt-sb-btn" data-act="expand" title="Expand all"><i class="bi bi-arrows-expand"></i></button>' +
+      '<button type="button" class="mt-sb-btn" data-act="collapse" title="Collapse all"><i class="bi bi-arrows-collapse"></i></button>' +
+      '<button type="button" class="mt-sb-btn" data-act="locate" title="Reveal current page"><i class="bi bi-crosshair"></i></button>';
+    menu.parentNode.insertBefore(bar, menu);
+    filterInput = bar.querySelector("input");
+    const empty = el("div", { class: "mt-sb-empty", hidden: "" }, "no matching pages");
+    menu.appendChild(empty);
+
+    // scroll only the sidebar (scrollIntoView would also move the page)
+    const centerIn = (a, smooth) => {
+      const r = a.getBoundingClientRect(), s = sidebar.getBoundingClientRect();
+      sidebar.scrollTo({ top: sidebar.scrollTop + (r.top - s.top) - s.height / 2 + r.height / 2,
+                         behavior: smooth ? "smooth" : "auto" });
+    };
+    const locate = () => {
+      const a = menu.querySelector("a.sidebar-link.active");
+      if (!a) return;
+      openAncestors(a);
+      centerIn(a, true);
+      a.focus({ preventScroll: true });
+    };
+
+    bar.addEventListener("click", (e) => {
+      const btn = e.target.closest("button[data-act]");
+      if (!btn) return;
+      const act = btn.dataset.act;
+      if (act === "locate") return locate();
+      const open = act === "expand";
+      sections().forEach((ul) => { setOpen(ul, open); state[ul.id] = open; });
+      if (!open) { const a = menu.querySelector("a.sidebar-link.active"); if (a) openAncestors(a); }
+      store.write(state);
+    });
+
+    // filter
+    const items = [...menu.querySelectorAll("li.sidebar-item")];
+    const labelOf = (li) => {
+      const a = li.querySelector(":scope > .sidebar-item-container > a.sidebar-item-text");
+      return clean(a ? a.textContent : "").toLowerCase();
+    };
+    const labels = new Map(items.map((li) => [li, labelOf(li)]));
+    let snapshot = null;
+
+    const runFilter = (raw) => {
+      const terms = clean(raw).toLowerCase().split(" ").filter(Boolean);
+      if (!terms.length) {
+        filtering = false;
+        items.forEach((li) => li.classList.remove("mt-hide", "mt-match"));
+        if (snapshot) { snapshot.forEach(([ul, open]) => setOpen(ul, open)); snapshot = null; }
+        empty.hidden = true;
+        return;
+      }
+      if (!snapshot) snapshot = sections().map((ul) => [ul, ul.classList.contains("show")]);
+      filtering = true;
+      items.forEach((li) => { li.classList.add("mt-hide"); li.classList.remove("mt-match"); });
+      let hits = 0;
+      items.forEach((li) => {
+        const label = labels.get(li);
+        if (!terms.every((t) => label.includes(t))) return;
+        hits++;
+        li.classList.remove("mt-hide");
+        li.classList.add("mt-match");
+        const own = li.querySelector(":scope > ul.sidebar-section");
+        if (own) { setOpen(own, true); own.querySelectorAll("li.sidebar-item").forEach((d) => d.classList.remove("mt-hide")); }
+        let p = li.parentElement.closest("li.sidebar-item");
+        while (p) {
+          p.classList.remove("mt-hide");
+          const ul = p.querySelector(":scope > ul.sidebar-section");
+          if (ul) setOpen(ul, true);
+          p = p.parentElement.closest("li.sidebar-item");
+        }
+      });
+      empty.hidden = hits > 0;
+    };
+
+    filterInput.addEventListener("input", () => runFilter(filterInput.value));
+    filterInput.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") { filterInput.value = ""; runFilter(""); filterInput.blur(); }
+      else if (e.key === "Enter") {
+        const first = menu.querySelector("li.mt-match > .sidebar-item-container > a.sidebar-link[href]");
+        if (first) location.href = first.href;
+      } else if (e.key === "ArrowDown") {
+        const first = menu.querySelector("li.sidebar-item:not(.mt-hide) a.sidebar-link[href]");
+        if (first) { e.preventDefault(); first.focus(); }
+      }
+    });
+
+    // ↑/↓ moves between visible links inside the tree
+    menu.addEventListener("keydown", (e) => {
+      if (e.key !== "ArrowDown" && e.key !== "ArrowUp") return;
+      const links = [...menu.querySelectorAll("a.sidebar-link[href]")].filter((a) => a.offsetParent !== null);
+      const i = links.indexOf(document.activeElement);
+      if (i < 0) return;
+      e.preventDefault();
+      const j = e.key === "ArrowDown" ? Math.min(i + 1, links.length - 1) : i - 1;
+      if (j < 0) filterInput.focus(); else links[j].focus();
+    });
+
+    // ── page panel (Sphinx: previous / next topic, this page, meta) ────
+    const panel = el("div", { class: "mt-sb-panel" });
+    const topic = (a, dir, label) =>
+      `<section class="mt-sb-block"><h6>${label}</h6><a class="mt-topic" href="${a.getAttribute("href")}">` +
+      `<span class="mt-dir">${dir}</span><span>${esc(clean(a.textContent))}</span></a></section>`;
+    let html = "";
+    if (prevLink) html += topic(prevLink, "[", "Previous topic");
+    if (nextLink) html += topic(nextLink, "]", "Next topic");
+
+    const actionsBox = document.querySelector("#quarto-margin-sidebar .toc-actions") ||
+                       document.querySelector("nav[role='doc-toc'] .toc-actions");
+    const actions = actionsBox ? [...actionsBox.querySelectorAll("a")] : [];
+    const icon = (t) => /edit/i.test(t) ? "pencil-square" : /issue|bug/i.test(t) ? "bug" : /source/i.test(t) ? "file-earmark-code" : "box-arrow-up-right";
+    html += '<section class="mt-sb-block"><h6>This page</h6><ul>';
+    actions.forEach((a) => {
+      const t = clean(a.textContent);
+      html += `<li><a href="${a.getAttribute("href")}"${a.target ? ` target="${a.target}"` : ""}><i class="bi bi-${icon(t)}"></i>${esc(t)}</a></li>`;
+    });
+    html += '<li><button type="button" class="mt-linklike" data-act="copy-link"><i class="bi bi-link-45deg"></i><span>Copy link</span></button></li>';
+    html += "</ul></section>";
+
+    const main = document.querySelector("main.content");
+    if (main) {
+      const body = main.cloneNode(true);
+      body.querySelectorAll("pre, code, script, style, .MathJax, mjx-container, .quarto-title-block, nav, .footnotes").forEach((n) => n.remove());
+      const words = (body.textContent.match(/[\p{L}\p{N}][\p{L}\p{N}'’-]*/gu) || []).length;
+      const mod = document.querySelector(".quarto-title-meta .date-modified, p.date-modified");
+      const secs = main.querySelectorAll("section.level2").length;
+      html += '<section class="mt-sb-block mt-sb-meta"><h6>Page</h6><dl>';
+      if (mod) html += `<dt>Modified</dt><dd>${esc(clean(mod.textContent))}</dd>`;
+      html += `<dt>Length</dt><dd>${words.toLocaleString()} words · ~${Math.max(1, Math.round(words / 220))} min</dd>`;
+      if (secs) html += `<dt>Sections</dt><dd>${secs}</dd>`;
+      html += "</dl></section>";
+    }
+    html += '<div class="mt-sb-keys"><kbd>t</kbd> filter · <kbd>[</kbd> <kbd>]</kbd> prev/next · <kbd>s</kbd> search</div>';
+    panel.innerHTML = html;
+    menu.after(panel);
+
+    panel.addEventListener("click", async (e) => {
+      const btn = e.target.closest('[data-act="copy-link"]');
+      if (!btn) return;
+      const span = btn.querySelector("span");
+      try { await navigator.clipboard.writeText(location.href.split("#")[0]); span.textContent = "Copied"; }
+      catch { span.textContent = "Copy failed"; }
+      setTimeout(() => (span.textContent = "Copy link"), 1400);
+    });
+
+    // keep the current page in view on load (without animation)
+    const active = menu.querySelector("a.sidebar-link.active");
+    if (active) {
+      const r = active.getBoundingClientRect(), s = sidebar.getBoundingClientRect();
+      if (r.top < s.top || r.bottom > s.bottom) centerIn(active, false);
+    }
+  });
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -536,6 +989,13 @@ Valiev, Ruslan Z., I. V. Alexandrov, Yuntian T. Zhu, and T. C. Lowe. 2002. <span
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+            // default icon
+            link.classList.add("external");
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -790,25 +1250,64 @@ Valiev, Ruslan Z., I. V. Alexandrov, Yuntian T. Zhu, and T. C. Lowe. 2002. <span
           }
         };
       }
-        // Attach click handler to the DT
-        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-        for (const annoteDlNode of annoteDls) {
-          annoteDlNode.addEventListener('click', (event) => {
-            const clickedEl = event.target;
-            if (clickedEl !== selectedAnnoteEl) {
-              unselectCodeLines();
-              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-              if (activeEl) {
-                activeEl.classList.remove('code-annotation-active');
-              }
-              selectCodeLines(clickedEl);
-              clickedEl.classList.add('code-annotation-active');
-            } else {
-              // Unselect the line
-              unselectCodeLines();
-              clickedEl.classList.remove('code-annotation-active');
+        const annoteTargets = window.document.querySelectorAll('.code-annotation-anchor');
+        for (let i=0; i<annoteTargets.length; i++) {
+          const annoteTarget = annoteTargets[i];
+          const targetCell = annoteTarget.getAttribute("data-target-cell");
+          const targetAnnotation = annoteTarget.getAttribute("data-target-annotation");
+          const contentFn = () => {
+            const content = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+            if (content) {
+              const tipContent = content.cloneNode(true);
+              tipContent.classList.add("code-annotation-tip-content");
+              return tipContent.outerHTML;
             }
-          });
+          }
+          const config = {
+            allowHTML: true,
+            content: contentFn,
+            onShow: (instance) => {
+              selectCodeLines(instance.reference);
+              instance.reference.classList.add('code-annotation-active');
+              window.tippy.hideAll();
+            },
+            onHide: (instance) => {
+              unselectCodeLines();
+              instance.reference.classList.remove('code-annotation-active');
+            },
+            maxWidth: 300,
+            delay: [50, 0],
+            duration: [200, 0],
+            offset: [5, 10],
+            arrow: true,
+            appendTo: function(el) {
+              return el.parentElement.parentElement.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'quarto',
+            placement: 'right',
+            popperOptions: {
+              modifiers: [
+              {
+                name: 'flip',
+                options: {
+                  flipVariations: false, // true by default
+                  allowedAutoPlacements: ['right'],
+                  fallbackPlacements: ['right', 'top', 'top-start', 'top-end', 'bottom', 'bottom-start', 'bottom-end', 'left'],
+                },
+              },
+              {
+                name: 'preventOverflow',
+                options: {
+                  mainAxis: false,
+                  altAxis: false
+                }
+              }
+              ]        
+            }      
+          };
+          window.tippy(annoteTarget, config); 
         }
     const findCites = (el) => {
       const parentEl = el.parentElement;

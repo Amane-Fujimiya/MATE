@@ -1,8 +1,12 @@
 ---
+author: 
+  - name: Bui Gia Khanh
+    affiliations:
+      - name: RINALAB Advanced Research Laboratory
 format:
-  html:
+  rhinelab-html:
     grid:
-      body-width: 1200px
+      body-width: 1000px
 ---
 # Introduction
 

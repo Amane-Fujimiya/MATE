@@ -5,7 +5,7 @@ project:
     - robot.txt
 
 book:
-  title: "Material Science Laboratory Documentation"
+  title: "Material Science Documentation"
   repo-url: https://github.com/
   repo-actions: [edit, issue, source]
   repo-subdir: book
@@ -41,25 +41,20 @@ book:
 #bibliography: references.bib
 
 format:
-  html:
-    lightbox: true
-    theme:
-      light: [default, style/custom.scss]
-      dark: [default, style/custom_dark.scss]
+  rhinelab-html:
     fontsize: "14px"
-    linestretch: 1.6
-    mainfont: "Roboto"
-    monofont: "Fira Mono"
+    number-sections: true
     smooth-scroll: true
+    number-depth: 3
     toc-depth: 3
     code-link: true
     code-tools:
       toggle: true
     code-fold: false
-    highlight-style: printing
-    code-block-bg: true
     code-overflow: wrap
     reference-location: margin
+    highlight-style: printing
+    code-block-bg: true
     mermaid:
       theme: neutral
     grid: 
